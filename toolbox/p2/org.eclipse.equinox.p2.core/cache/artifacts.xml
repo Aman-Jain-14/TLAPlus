@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='download cache' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.system' value='true'/>
+    <property name='p2.timestamp' value='1517230613416'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='3'>
+    <artifact classifier='binary' id='org.eclipse.rcp_root' version='4.7.0.v20170612-1255'>
+      <properties size='1'>
+        <property name='download.size' value='27703'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.lamport.tla.toolbox.feature.branding_root' version='1.0.0.201801291236'>
+      <properties size='1'>
+        <property name='download.size' value='38360'/>
+      </properties>
+    </artifact>
+    <artifact classifier='binary' id='org.lamport.tla.toolbox.product.product.executable.gtk.linux.x86_64' version='1.5.6.201801291236'>
+      <properties size='1'>
+        <property name='download.size' value='38092'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>

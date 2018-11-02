@@ -1,0 +1,348 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.12 of 29 January 2018
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with 3 workers on 6 cores with 503MB heap and 1127MB offheap memory (Linux 4.4.0-103-generic amd64, Oracle Corporation 1.8.0_121 x86_64).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /home/aman/Desktop/tla+/test_bakery.toolbox/Model_1/MC.tla
+Parsing file /home/aman/Desktop/tla+/test_bakery.toolbox/Model_1/test_bakery.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/TLC.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/Naturals.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module test_bakery
+Semantic processing of module Sequences
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2018-04-19 23:43:55)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 1000:1 @!@!@
+TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the User Output or TLC Console for clues to what happened.
+The exception was a java.lang.RuntimeException
+: TLC encountered a non-enumerable quantifier bound
+Nat.
+line 146, col 31 to line 146, col 33 of module test_bakery
+@!@!@ENDMSG 1000 @!@!@
+@!@!@STARTMSG 2121:1 @!@!@
+The behavior up to this point is:
+@!@!@ENDMSG 2121 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+1: <Initial predicate>
+/\ flag = <<FALSE, FALSE>>
+/\ num = <<0, 0>>
+/\ unchecked = <<{}, {}>>
+/\ nxt = <<1, 1>>
+/\ pc = <<"ncs", "ncs">>
+/\ max = <<0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+2: <ncs line 118, col 14 to line 120, col 62 of module test_bakery>
+/\ flag = <<FALSE, FALSE>>
+/\ num = <<0, 0>>
+/\ unchecked = <<{}, {}>>
+/\ nxt = <<1, 1>>
+/\ pc = <<"ncs", "e1">>
+/\ max = <<0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+3: <ncs line 118, col 14 to line 120, col 62 of module test_bakery>
+/\ flag = <<FALSE, FALSE>>
+/\ num = <<0, 0>>
+/\ unchecked = <<{}, {}>>
+/\ nxt = <<1, 1>>
+/\ pc = <<"e1", "e1">>
+/\ max = <<0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+4: <e1 line 122, col 13 to line 130, col 39 of module test_bakery>
+/\ flag = <<TRUE, FALSE>>
+/\ num = <<0, 0>>
+/\ unchecked = <<{2}, {}>>
+/\ nxt = <<1, 1>>
+/\ pc = <<"e2", "e1">>
+/\ max = <<0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+5: <e2 line 132, col 13 to line 143, col 45 of module test_bakery>
+/\ flag = <<TRUE, FALSE>>
+/\ num = <<0, 0>>
+/\ unchecked = <<{}, {}>>
+/\ nxt = <<1, 1>>
+/\ pc = <<"e2", "e1">>
+/\ max = <<0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+6: <e2 line 132, col 13 to line 143, col 45 of module test_bakery>
+/\ flag = <<TRUE, FALSE>>
+/\ num = <<0, 0>>
+/\ unchecked = <<{}, {}>>
+/\ nxt = <<1, 1>>
+/\ pc = <<"e3", "e1">>
+/\ max = <<0, 0>>
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2103:1 @!@!@
+The error occurred when TLC was evaluating the nested
+expressions at the following positions:
+0. Line 145, column 13 to line 152, column 56 in test_bakery
+1. Line 145, column 16 to line 145, column 30 in test_bakery
+2. Line 146, column 16 to line 151, column 53 in test_bakery
+3. Line 146, column 19 to line 148, column 53 in test_bakery
+4. Line 146, column 22 to line 147, column 54 in test_bakery
+
+
+@!@!@ENDMSG 2103 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2018-04-19 23:43:56
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 119, col 17 to line 119, col 48 of module test_bakery: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 120, col 30 to line 120, col 32 of module test_bakery: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 120, col 35 to line 120, col 38 of module test_bakery: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 120, col 41 to line 120, col 49 of module test_bakery: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 120, col 52 to line 120, col 54 of module test_bakery: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 120, col 57 to line 120, col 59 of module test_bakery: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 123, col 22 to line 123, col 65 of module test_bakery: 21
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 124, col 22 to line 124, col 53 of module test_bakery: 21
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 125, col 34 to line 125, col 42 of module test_bakery: 21
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 125, col 45 to line 125, col 47 of module test_bakery: 21
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 126, col 22 to line 126, col 57 of module test_bakery: 21
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 127, col 22 to line 127, col 77 of module test_bakery: 21
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 128, col 22 to line 128, col 52 of module test_bakery: 21
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 129, col 22 to line 129, col 53 of module test_bakery: 21
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 29 to line 130, col 31 of module test_bakery: 42
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 34 to line 130, col 36 of module test_bakery: 42
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 135, col 32 to line 135, col 94 of module test_bakery: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 137, col 43 to line 137, col 78 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 139, col 43 to line 139, col 52 of module test_bakery: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 140, col 27 to line 140, col 58 of module test_bakery: 10
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 141, col 27 to line 141, col 58 of module test_bakery: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 142, col 40 to line 142, col 48 of module test_bakery: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 142, col 51 to line 142, col 53 of module test_bakery: 8
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 143, col 29 to line 143, col 31 of module test_bakery: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 143, col 34 to line 143, col 37 of module test_bakery: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 143, col 40 to line 143, col 42 of module test_bakery: 18
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 147, col 24 to line 147, col 54 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 148, col 22 to line 148, col 53 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 150, col 24 to line 150, col 54 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 151, col 22 to line 151, col 53 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 152, col 29 to line 152, col 32 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 152, col 35 to line 152, col 43 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 152, col 46 to line 152, col 48 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 152, col 51 to line 152, col 53 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 155, col 22 to line 155, col 65 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 156, col 22 to line 156, col 53 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 157, col 32 to line 157, col 40 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 158, col 22 to line 158, col 58 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 159, col 22 to line 159, col 77 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 160, col 22 to line 160, col 53 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 29 to line 161, col 31 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 34 to line 161, col 36 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 161, col 39 to line 161, col 41 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 166, col 29 to line 166, col 59 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 168, col 27 to line 168, col 58 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 169, col 27 to line 169, col 58 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 170, col 27 to line 170, col 36 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 171, col 29 to line 171, col 31 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 171, col 34 to line 171, col 37 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 171, col 40 to line 171, col 48 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 171, col 51 to line 171, col 53 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 176, col 16 to line 176, col 86 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 177, col 16 to line 177, col 47 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 178, col 29 to line 178, col 31 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 178, col 34 to line 178, col 37 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 178, col 40 to line 178, col 42 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 178, col 45 to line 178, col 47 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 182, col 16 to line 182, col 49 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 183, col 29 to line 183, col 31 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 183, col 34 to line 183, col 37 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 183, col 40 to line 183, col 48 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 183, col 51 to line 183, col 53 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 183, col 56 to line 183, col 58 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 187, col 26 to line 187, col 56 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 188, col 24 to line 188, col 57 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 189, col 24 to line 189, col 54 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 190, col 24 to line 190, col 56 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 191, col 31 to line 191, col 34 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 191, col 37 to line 191, col 45 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 191, col 48 to line 191, col 50 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 191, col 53 to line 191, col 55 of module test_bakery: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(5) at 2018-04-19 23:43:56: 71 states generated (9,659 s/min), 33 distinct states found (4,489 ds/min), 6 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+71 states generated, 33 distinct states found, 6 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 7.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 3 and the 95th percentile is 3).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 913ms at (2018-04-19 23:43:56)
+@!@!@ENDMSG 2186 @!@!@

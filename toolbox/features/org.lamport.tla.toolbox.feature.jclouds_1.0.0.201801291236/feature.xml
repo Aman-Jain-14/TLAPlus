@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.lamport.tla.toolbox.feature.jclouds"
+      label="TLA+ Toolbox JClouds Feature"
+      version="1.0.0.201801291236"
+      provider-name="Markus Alexander Kuppe"
+      plugin="org.lamport.tla.toolbox.jclouds">
+
+   <description>
+      This feature defines the set of plug-ins that are required to run the base of the TLA+ Toolbox.
+   </description>
+
+   <includes
+         id="org.apache.jclouds.feature"
+         version="2.0.3.3"/>
+
+   <plugin
+         id="org.lamport.tla.toolbox.jclouds"
+         download-size="2284"
+         install-size="2415"
+         version="1.0.0.201801291236"/>
+
+   <plugin
+         id="org.apache.commons.io"
+         download-size="166"
+         install-size="327"
+         version="2.0.1.v201105210651"
+         unpack="false"/>
+
+   <plugin
+         id="com.jcraft.jsch"
+         download-size="295"
+         install-size="536"
+         version="0.1.54.v20170116-1932"
+         unpack="false"/>
+
+</feature>

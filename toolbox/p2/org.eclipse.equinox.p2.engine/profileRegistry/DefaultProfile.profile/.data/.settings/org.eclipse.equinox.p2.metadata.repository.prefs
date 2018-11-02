@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+repositories/http\:__lamport.org_tlatoolbox_ci_toolboxUpdate/count=1
+repositories/http\:__lamport.org_tlatoolbox_ci_toolboxUpdate/enabled=false
+repositories/http\:__lamport.org_tlatoolbox_ci_toolboxUpdate/uri=http\://lamport.org/tlatoolbox/ci/toolboxUpdate/
+repositories/http\:__lamport.org_tlatoolbox_toolboxUpdate/count=1
+repositories/http\:__lamport.org_tlatoolbox_toolboxUpdate/enabled=true
+repositories/http\:__lamport.org_tlatoolbox_toolboxUpdate/name=org.lamport.tla.toolbox.product.product
+repositories/http\:__lamport.org_tlatoolbox_toolboxUpdate/suffix=content.xml.xz
+repositories/http\:__lamport.org_tlatoolbox_toolboxUpdate/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
+repositories/http\:__lamport.org_tlatoolbox_toolboxUpdate/uri=http\://lamport.org/tlatoolbox/toolboxUpdate/
+repositories/http\:__lamport.org_tlatoolbox_toolboxUpdate/version=1.0.0

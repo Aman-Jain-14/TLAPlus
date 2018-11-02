@@ -1,0 +1,844 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.lamport.tla.toolbox;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: jenkins
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.co
+ re.resources,org.eclipse.ui.views,org.eclipse.ui.forms,org.eclipse.ui
+ .ide,org.eclipse.ui.editors,org.eclipse.jface.text,org.eclipse.ui.nav
+ igator;bundle-version="3.3.101";visibility:=reexport,org.eclipse.core
+ .expressions;bundle-version="3.4.100",org.lamport.tlatools;bundle-ver
+ sion="1.0.0";visibility:=reexport,org.eclipse.team.ui,org.eclipse.cor
+ e.filesystem;bundle-version="1.5.0",org.lamport.tla.toolbox.product.s
+ tandalone
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Simon Zambrovski, Leslie Lamport
+Import-Package: org.eclipse.e4.core.contexts,org.eclipse.e4.core.servi
+ ces.events,org.eclipse.e4.ui.model.application,org.eclipse.e4.ui.mode
+ l.application.ui,org.eclipse.e4.ui.model.application.ui.basic,org.ecl
+ ipse.e4.ui.workbench,org.eclipse.e4.ui.workbench.lifecycle,org.eclips
+ e.e4.ui.workbench.modeling,org.osgi.service.event;version="1.3.0"
+Export-Package: org.lamport.tla.toolbox,org.lamport.tla.toolbox.spec; 
+ uses:="org.eclipse.core.runtime,  org.eclipse.core.resources,  tla2sa
+ ny.modanalyzer,  tla2sany.semantic",org.lamport.tla.toolbox.spec.mana
+ ger,org.lamport.tla.toolbox.spec.parser,org.lamport.tla.toolbox.tool;
+  uses:="org.eclipse.core.runtime,  org.eclipse.jface.preference,  org
+ .lamport.tla.toolbox.spec,  org.eclipse.core.resources,  tla2sany.mod
+ analyzer",org.lamport.tla.toolbox.ui.dialog,org.lamport.tla.toolbox.u
+ i.handler,org.lamport.tla.toolbox.ui.navigator,org.lamport.tla.toolbo
+ x.ui.preference,org.lamport.tla.toolbox.ui.provider; uses:="org.lampo
+ rt.tla.toolbox.spec,  org.eclipse.ui.navigator,  org.eclipse.swt.grap
+ hics,  org.eclipse.jface.viewers",org.lamport.tla.toolbox.ui.view;use
+ s:="org.eclipse.ui.part,org.eclipse.swt.widgets",org.lamport.tla.tool
+ box.util; uses:="org.eclipse.jface.window,  org.eclipse.core.runtime,
+   org.eclipse.jface.resource,  org.eclipse.ui.model,  org.eclipse.ui,
+   org.lamport.tla.toolbox.tool,  org.eclipse.ui.views.markers,  org.l
+ amport.tla.toolbox.spec,  org.eclipse.core.runtime.jobs,  org.eclipse
+ .core.resources,  org.eclipse.swt.graphics,  org.eclipse.jface.viewer
+ s,  org.eclipse.swt.widgets,  util",org.lamport.tla.toolbox.util.pref
+Bundle-Name: TLA+ Toolbox Base
+Bundle-Version: 1.0.0.201801291236
+Bundle-ClassPath: .,StandardModules/
+Bundle-Activator: org.lamport.tla.toolbox.Activator
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_161
+Eclipse-BundleShape: dir
+
+Name: plugin.xml
+SHA-256-Digest: 4Hj7LKk607Ft0CrStijVCjtxp+4eXGKRt6+Rbgxh23c=
+
+Name: org/lamport/tla/toolbox/util/compare/MarkerComparator.class
+SHA-256-Digest: DQoTcSgilnEyOjSe/3sOfU3V9vBjSWtNwCp9/ES57Pc=
+
+Name: org/lamport/tla/toolbox/spec/nature/ParserHelper.class
+SHA-256-Digest: B8DrmNFfMwlk75VLAsbCkpE1ZGdBufVs+mcnGuTQDu4=
+
+Name: org/lamport/tla/toolbox/spec/parser/ModuleParserLauncher.class
+SHA-256-Digest: 9gFErdaouDWeFs1gtAJVmdRU3Y0EApJMou9InoTIiEY=
+
+Name: org/lamport/tla/toolbox/job/TranslatorJob$1.class
+SHA-256-Digest: ijTCziSIaBMw0+4YYm8G+nJPoKuUIvfeUKrUSLfFmgU=
+
+Name: org/lamport/tla/toolbox/spec/nature/TLANature.class
+SHA-256-Digest: gy3m3yniVQ5fS6u02Q6kcvxmgIIgesZIsSiAk1T6zkA=
+
+Name: org/lamport/tla/toolbox/spec/Spec.class
+SHA-256-Digest: o3YG2kFoogKwsLwg/l1USOG3KDqPbj5PEsTbvDmUiKY=
+
+Name: org/lamport/tla/toolbox/ui/handler/ParseSpecHandler.class
+SHA-256-Digest: BqiNmX6nefjvO36qlQj3SXO8D+ivZn6RvNU5WzKwC4c=
+
+Name: org/lamport/tla/toolbox/util/UIHelper$NamedFileStoreEditorInput.
+ class
+SHA-256-Digest: pHhCV21yAEkORuSlSrWj7vTNtWZbISOcDwwqskk6Qvk=
+
+Name: org/lamport/tla/toolbox/ui/view/ProblemView$1.class
+SHA-256-Digest: zMccFh5NR9iVcu9A+Vx8KFrUlnWN6SbsKGMduYzdhb0=
+
+Name: org/lamport/tla/toolbox/util/pref/UnwantedPreferenceManager.clas
+ s
+SHA-256-Digest: duQBrG4Ygjg7hth13Q727xlFd0iydGGnzWE3Menh1H0=
+
+Name: org/lamport/tla/toolbox/ui/contribution/SizeControlContribution$
+ 1$1.class
+SHA-256-Digest: 6udZPe7EGvo/jGyi211Bu2uq+USpnM6NzuxBtFie/B0=
+
+Name: icons/full/obj16/start_ccs_task.gif
+SHA-256-Digest: B+CWLShdI5RgGBtdi3n0GnxXvLo55M8yJa0PmI1PkZY=
+
+Name: org/lamport/tla/toolbox/ui/expression/PCalPropertyTester.class
+SHA-256-Digest: Q5FWxw/Iu1tLMRUrQcJaZ3RS2n2TVgTHuOGuHD38Aa0=
+
+Name: org/lamport/tla/toolbox/util/ResourceHelper$ErrorMessageRunnable
+ .class
+SHA-256-Digest: 94aK5+3Mpzp8eO6BFScIFWj8kvKCwWSW7k4tw9uKsH4=
+
+Name: org/lamport/tla/toolbox/util/StringSet.class
+SHA-256-Digest: TMcwegVEmUPuVnFdSo5aBuPJgPzDBBasv5A1RFhOmb0=
+
+Name: icons/full/etool16/tla_launch_check_wiz_32.png
+SHA-256-Digest: GVNy2hpFSoIQ8vSOV4pQ6FoUDZLjjMEGO99TE+qeNio=
+
+Name: org/lamport/tla/toolbox/ui/handler/RenameSpecHandler.class
+SHA-256-Digest: hA/gAq+ilDoIM1uH1zGspE1cG5ml2rucysziS4ROGNA=
+
+Name: org/lamport/tla/toolbox/ui/expression/CurrentSpecTester.class
+SHA-256-Digest: Umda+xRYgyw6CkrnFKUeXXl96laSeYI4xx9LIPjWzLQ=
+
+Name: org/lamport/tla/toolbox/ui/view/ProblemView.class
+SHA-256-Digest: 4ywpseZnEyadaWBdRYfqCv0jxsX2yMmyqGMw752O2kA=
+
+Name: org/lamport/tla/toolbox/util/pref/PreferenceInitializer.class
+SHA-256-Digest: 3gP6XN8DukwCc7nxuehYrXatwd+/45RoTHFYVcTwgAE=
+
+Name: org/lamport/tla/toolbox/ui/preference/TranslatorPreferencePage.c
+ lass
+SHA-256-Digest: sMlsiGy8KtnGQgJtRvu0nKb7gLAuVquveVdiy/tx188=
+
+Name: org/lamport/tla/toolbox/ui/preference/LibraryPathComposite$4.cla
+ ss
+SHA-256-Digest: uzn5mMzMDvq1ZL+q4J5YoofxouC6EBnr9svN6T8n3mM=
+
+Name: icons/full/etool16/tla_launch_check_wiz_16.png
+SHA-256-Digest: LzAY30wraGRgJF4WEQJ4njK2K4tVUny9fX5Qv3/RQmY=
+
+Name: org/lamport/tla/toolbox/util/TLAMarkerResolutionGenerator.class
+SHA-256-Digest: Pr8tB5KdV3kfMcS3ZLBsmxmgfcmuC5FSQRXgz+1ZLmY=
+
+Name: org/lamport/tla/toolbox/Activator$1.class
+SHA-256-Digest: L3gCBs0i0Ev9ktXEIhr1FuVp6CAjXAnM9tHDyxd5nMI=
+
+Name: org/lamport/tla/toolbox/ui/property/GenericSelectionProvider.cla
+ ss
+SHA-256-Digest: yI8Y939hyHMsLctlcJ5BzdEjJPjo3UNDdCcJ6QVy9N8=
+
+Name: org/lamport/tla/toolbox/spec/nature/PCalDetectingBuilder.class
+SHA-256-Digest: 52rBVcXGdxRRuV6DWtRXM7ICW2EnCdu6au36HAy+JMI=
+
+Name: icons/full/ovr16/tla_ovr.gif
+SHA-256-Digest: iIRVEMnIRW3I71DS0DAgZetn8jpKDeEIPHnzTxFg2AE=
+
+Name: StandardModules/RealTime.tla
+SHA-256-Digest: An+ygQQITIs9x/K3mKo5/8apTHc33BV7EyAkJP/a/kU=
+
+Name: org/lamport/tla/toolbox/ui/view/ProblemViewResourceListener$1.cl
+ ass
+SHA-256-Digest: ZPBfpYa5vqPQquktpL+Aa75fjPaWWkF3RkpBok+2aRU=
+
+Name: StandardModules/Sequences.tla
+SHA-256-Digest: PlCJwwGm5LTQ/nl5/H6Jrvko2CGFwWG3Z2eB1Greya8=
+
+Name: org/lamport/tla/toolbox/util/TLAMarkerHelper$1$1.class
+SHA-256-Digest: mv3XhJZq7sa4kDdH9UBtyAEKyL95QbPj9I3ThMAu0PI=
+
+Name: icons/full/ovr16/volatile_co.gif
+SHA-256-Digest: xaJJNxkM/8yih0YVfFk+VFr+OEFDk8lxuF0ysqkHvzc=
+
+Name: org/lamport/tla/toolbox/ui/preference/SWTFactory$1.class
+SHA-256-Digest: FRbb/DK6JfKRuGMmy7S8mhcR1ShFTASgGyZ4a4BQG40=
+
+Name: org/lamport/tla/toolbox/ui/view/PDFBrowser.class
+SHA-256-Digest: QGHMNGR25tRUyzE8/taXt6nLYQ3bAz4ETrjLUWUEVq4=
+
+Name: org/lamport/tla/toolbox/ui/handler/ParseSpecHandler$1.class
+SHA-256-Digest: J6XShGno9cmv6bNQD2J01lCNQz3353/Gp7nVocvvV4E=
+
+Name: org/lamport/tla/toolbox/job/NewTLAModuleCreationOperation.class
+SHA-256-Digest: j9IHEp6W6ocXWdonMcDZY+frQ8kZKSWEg8wm3YzM+5c=
+
+Name: org/lamport/tla/toolbox/ui/preference/LibraryPathComposite$9.cla
+ ss
+SHA-256-Digest: jvtxTZfGXYek8qcIetgXFD6cayRxVxzbpa3jMuglqvw=
+
+Name: icons/full/etool16/history_list.gif
+SHA-256-Digest: v/zSbvQkgn9opgBo9dKbEwXvu2cXbT4oPgH+SQ8qw0M=
+
+Name: org/lamport/tla/toolbox/job/DeleteOutOfSyncJob.class
+SHA-256-Digest: fo+7+re0IhLII7rwg+lbVMowWvzcxzHW41ZtVKeLUTQ=
+
+Name: org/lamport/tla/toolbox/tool/SpecEvent.class
+SHA-256-Digest: jcQfGO7V+1Hu6SYJ/y22b9thdIt7HZV0WOjdoB9B7Jc=
+
+Name: icons/full/prop_ps.gif
+SHA-256-Digest: 9I7k0Y6xN5zzsksEBZlaOJA30jT+h6r1i8ZWKWRuhTA=
+
+Name: org/lamport/tla/toolbox/ui/handler/NewSpecHandler$NewSpecHandler
+ Job$2.class
+SHA-256-Digest: mdFxqFfsRi3pMgqwkwxw71cgGs/AmZIQ7vK3WnP5oW8=
+
+Name: org/lamport/tla/toolbox/ui/handler/SwitchPerspectiveHandler$1.cl
+ ass
+SHA-256-Digest: ROCnzK7EaVS34L3aFqtjQIXLpkeVzCTfFvk8C1ia6us=
+
+Name: org/lamport/tla/toolbox/ui/property/ModulePropertyPage.class
+SHA-256-Digest: TqsXuggxN9AuxYQTxiSueaW0vtJ6pA0Crhtc0VtvPOM=
+
+Name: org/lamport/tla/toolbox/ui/preference/GeneralPreferencePage.clas
+ s
+SHA-256-Digest: z+/F8uj24/yy3tbdisoN2cw7tV5fPzbTP929FeQx2EI=
+
+Name: icons/full/etool16/new_module_wiz.gif
+SHA-256-Digest: gRdmi89z+fb1U3uSu5inPCat/fz2UEl+DrD3apo/8Vw=
+
+Name: org/lamport/tla/toolbox/ui/handler/OpenSpecHandler$1.class
+SHA-256-Digest: vD4A3tDB2ngpj9tBjeR2IWad6XTwngLgLgr+3bF8+Bg=
+
+Name: icons/full/eview16/console_view2.gif
+SHA-256-Digest: vab/CmPsuCDGNcCKrmRYnlQVSyk/XICxc/OoqHjDr8Y=
+
+Name: org/lamport/tla/toolbox/spec/parser/IParseConstants.class
+SHA-256-Digest: Lreh3XL5UTt4joOGkgXx+yH8Q6GZyGc6D6JfCNacd6s=
+
+Name: org/lamport/tla/toolbox/ui/view/ProblemViewResourceListener.clas
+ s
+SHA-256-Digest: hrgMXBxhTmlmA9DWbax06cUvZQuTmEX8jXU4tYCwSno=
+
+Name: icons/full/etool16/nav_go.gif
+SHA-256-Digest: ho1FtJosz/FKGA8rLVqdmlemOUZ5eHsyiHLvcpPYdH0=
+
+Name: org/lamport/tla/toolbox/ui/view/ProblemView$2.class
+SHA-256-Digest: qpizQ5rcwRm/IJYC2GJBgQgYioXKcr2a5ue4rE7JMGc=
+
+Name: org/lamport/tla/toolbox/job/TranslatorJob.class
+SHA-256-Digest: qCx51J6S63zOGn2KQ84+yxrkvwqUKE1anPEd7MaaWBk=
+
+Name: org/lamport/tla/toolbox/util/UIHelper$1.class
+SHA-256-Digest: PfXunYgRhdcfQ+w6PJmxOQqLcQrwM+PXB7icrC80Rfs=
+
+Name: icons/full/etool16/tla_launch_check_wiz.gif
+SHA-256-Digest: WvP3BCLz1AGPvuhgXqYD8iegxPABwqpNTbp9EIH+YV8=
+
+Name: org/lamport/tla/toolbox/util/UIHelper.class
+SHA-256-Digest: 4QJ46T0J2/SuBLTbOKvPDh6eUWHyvy42d0PJtw7E/jo=
+
+Name: org/lamport/tla/toolbox/spec/nature/TLAParsingBuilder$OutOfBuild
+ SpecModulesGatheringDeltaVisitor.class
+SHA-256-Digest: G45+iEizw2OZ57iRs8JXhzaeizpWPuvdEIuiDlmQXTk=
+
+Name: icons/full/etool16/ignore.gif
+SHA-256-Digest: EVnCFDk71yZwitVamedceAOW+PP6rnD/mkR0Cmr9Nu8=
+
+Name: org/lamport/tla/toolbox/ui/preference/LibraryPathComposite.class
+SHA-256-Digest: /N3rR3lA2osOU+qC7AU9A1I3A/DQAoBnugFuP/+qibA=
+
+Name: org/lamport/tla/toolbox/ui/preference/LibraryPathComposite$3.cla
+ ss
+SHA-256-Digest: EkjP/pQhXYRZC9+gj3FdBKQGhiOy6rHVmTP+I5JPdWc=
+
+Name: org/lamport/tla/toolbox/ui/handler/OpenViewHandler.class
+SHA-256-Digest: /ZJEvrH54QloA2zus6zjCG0yTZLnBh2jpwByT6xgYwY=
+
+Name: org/lamport/tla/toolbox/tool/IParseResult.class
+SHA-256-Digest: ogEW9200ciopUyIJqrxQ3q9fzva7mDKjchq5358l5Lc=
+
+Name: org/lamport/tla/toolbox/ui/dialog/InformationDialog.class
+SHA-256-Digest: JlY9GunBf2XKI/oyh05K04zBGoTQ0t7j31ojQMxduQs=
+
+Name: icons/full/obj16/prj_obj@2x.png
+SHA-256-Digest: FlNzAs04CKcBdsYb/6Y4MgdwbgkR/Qyk9N+0UZABk9U=
+
+Name: org/lamport/tla/toolbox/ui/handler/RenameSpecHandler$SpecNameVal
+ idator.class
+SHA-256-Digest: u8IAm2xo4J3fEFea2K6NGk0f+tBn8LiT/k0XwHS/XkU=
+
+Name: org/lamport/tla/toolbox/util/UIHelper$5.class
+SHA-256-Digest: Y7RJIlbH9g9p//oqkawWBDK3Q97ua4W96EDD9lNCH4o=
+
+Name: org/lamport/tla/toolbox/ui/preference/LibraryPathComposite$6.cla
+ ss
+SHA-256-Digest: bmnstEEYgOs6SbKSrbkozrTD7fRXF0lFjz9SpQ/jbKg=
+
+Name: org/lamport/tla/toolbox/util/AdapterFactory.class
+SHA-256-Digest: qY4RnziPt2cRiX9RXL5qXyLKUBCisDY2FCoUTvwUK0A=
+
+Name: org/lamport/tla/toolbox/util/UIHelper$2.class
+SHA-256-Digest: AhNQYUVkWlX0imO8VDtH+cQNHdRd4+/RVmrJ6nggvCI=
+
+Name: icons/full/etool16/tla_prj_obj.gif
+SHA-256-Digest: 1SzIAJboFeNY/rUQiLlenLGUmC78VNXITJ8O2Tz/GiU=
+
+Name: icons/full/newmodule_wiz.gif
+SHA-256-Digest: qx3MocuwhYNdMmZ2d8548Lw2sLF+FLcD/dKLGOD4ycw=
+
+Name: org/lamport/tla/toolbox/ui/contribution/SpecListContributionItem
+ .class
+SHA-256-Digest: N3trxXCsstQb9E0r8Hv6bixJjLKUIY/nDyl/yYAhq/s=
+
+Name: org/lamport/tla/toolbox/ui/handler/OpenViewHandler$1.class
+SHA-256-Digest: bMdObSWzeqQnzpCeXgemFOoBIz98fgLXoPWx717qnb0=
+
+Name: helpContexts.xml
+SHA-256-Digest: kNvpKmbaGdVqPMc80MepZc7jdaZjVf4JIwXUn+Rs4ck=
+
+Name: org/lamport/tla/toolbox/ui/handler/ModulePropertiesHandler.class
+SHA-256-Digest: 9z47NI9UHZbvKOACDG8nigo8k4qDgi8NFQBZPyHdmbY=
+
+Name: org/lamport/tla/toolbox/ui/wizard/NewSpecWizard.class
+SHA-256-Digest: 6BVwFVwDyEC42UBK8hEjmNwbGU9iW55NMXBQVtliF34=
+
+Name: org/lamport/tla/toolbox/util/TLAtoPCalMarker.class
+SHA-256-Digest: 1S9SNByUuBBFKeVdcdA2l9sfYuUgweYyvc9Hb6BqlUc=
+
+Name: icons/full/etool16/tla_obj.gif
+SHA-256-Digest: 0l4QzPP0Xvs67T+f2Sr9JnmDsHvdBwPEuQhP6gXJKgw=
+
+Name: org/lamport/tla/toolbox/ui/navigator/ToolboxExplorerResourceList
+ ener.class
+SHA-256-Digest: ieaSkCgIiPZGPS+xfq1k7aUL7KT4/g21lVLjZhjiTU0=
+
+Name: org/lamport/tla/toolbox/ui/handler/DeleteSpecHandler$1.class
+SHA-256-Digest: LAYe1FlvxgVQyfvAcX0Mr7jw0qFOUMdDW8Hs8HF/u6Y=
+
+Name: org/lamport/tla/toolbox/ui/preference/LibraryPathComposite$Table
+ ColumnLabelProvider.class
+SHA-256-Digest: Ja3gkJ1Xan//UEe6LV4jH/+o0z7jOGWTGpacJaJl85s=
+
+Name: org/lamport/tla/toolbox/ui/contribution/ModuleListContributionIt
+ em.class
+SHA-256-Digest: /h/0PtJJBAcanPnezjmWzEfq/2P0XMvjRMvlOaTB9Qw=
+
+Name: org/lamport/tla/toolbox/ui/handler/ParseSpecHandler$2.class
+SHA-256-Digest: GT3Ruesgq2w5p1qL0VyRoUYMs6z7sRzLRREjr1mOhs8=
+
+Name: org/lamport/tla/toolbox/job/NewTLAModuleCreationOperation$1.clas
+ s
+SHA-256-Digest: nD6RW7+oMbHKsSRF2+7s+DZmndY5Lsu9kGbqbEgoWG8=
+
+Name: org/lamport/tla/toolbox/ui/contribution/ParseStatusContributionI
+ tem$1.class
+SHA-256-Digest: LAX7xsAJ+AceVC6KHE5WnnYuuR+CRtrLicbzY+R/mV0=
+
+Name: org/lamport/tla/toolbox/ui/wizard/NewSpecWizardPage$3.class
+SHA-256-Digest: F9ToWPVUO/ayzRzAmNBdXSurI3GY+ixj0a8UXc06zxs=
+
+Name: icons/full/etool16/tla_launch_check_wiz_64.png
+SHA-256-Digest: Xcu2wiFwJ2owK8I3I1Kbh0EL9o9+Ne7m3RD/ZbPBIvQ=
+
+Name: org/lamport/tla/toolbox/ui/handler/HelpHandler.class
+SHA-256-Digest: VgOPK39fgON5BCd1dZ/JfN5mwZotGoAjMXj9UPcL0MU=
+
+Name: org/lamport/tla/toolbox/util/UIHelper$3.class
+SHA-256-Digest: 4pJkg2Hgf14IIDfKAa7T41n/Xb+C2Jw2lw+3dA66Nr4=
+
+Name: org/lamport/tla/toolbox/ui/property/GenericFieldEditorPropertyPa
+ ge.class
+SHA-256-Digest: JwN5XnL+1Z2eoTWobmFJEjlFfzAIkgidvsGaAHC3KQk=
+
+Name: org/lamport/tla/toolbox/util/AdapterFactory$SpecWorkbenchAdapter
+ .class
+SHA-256-Digest: zY0W89L+2MbB/8mJXquPJXQwjUjjbhk/pWKFNR269z0=
+
+Name: org/lamport/tla/toolbox/spec/parser/ParserDependencyStorage.clas
+ s
+SHA-256-Digest: PHTr/4IF4unyX/tJN7zuQd8zwvR26U9Py6PDG+NYMzg=
+
+Name: org/lamport/tla/toolbox/ui/contribution/SizeControlContribution$
+ 1$2.class
+SHA-256-Digest: 6UKLqOID1VYyOWydR4/B9i5eziAUBEooCTBNunenlAM=
+
+Name: org/lamport/tla/toolbox/util/TLAMarkerHelper$2.class
+SHA-256-Digest: MoFEcva1JuzuYPscYb+0NCKaVPj7ZFfmfaKjlcSCPjw=
+
+Name: org/lamport/tla/toolbox/ui/contribution/ParseStatusContributionI
+ tem$2.class
+SHA-256-Digest: rfXeWoZTm7AfWMw3f3dqmQ+IYJ/Yp+tfvF6Hs+z5KPw=
+
+Name: org/lamport/tla/toolbox/spec/parser/ModuleParserLauncher$1.class
+SHA-256-Digest: la8bdFQp5y5qmPwzO7ZEQFf5X4gaWo5pC/jNvhxzUt0=
+
+Name: images/splash_small.bmp
+SHA-256-Digest: lPr1IMrwYrEl4KlgL8DBwM8JaPltB2ug6JpDqn62Iz8=
+
+Name: icons/full/etool16/nav_stop.gif
+SHA-256-Digest: jkBUU9euFGyFRmiLw07FB9OhWoiYJmlva77L0NMvLiM=
+
+Name: org/lamport/tla/toolbox/ui/handler/RenameSpecHandler$1.class
+SHA-256-Digest: xOdoZczYI8ZAIYIIBbMK2+9YrmLbd7EjrFZt4ITt2nk=
+
+Name: org/lamport/tla/toolbox/ui/wizard/NewSpecWizardPage.class
+SHA-256-Digest: SdhDJmzYJBLndhekXVkVb6mQy4ob0ukvxGaOHvw9CLc=
+
+Name: org/lamport/tla/toolbox/ui/contribution/ParseStatusContributionI
+ tem.class
+SHA-256-Digest: SNlKxgoiswpPhQsmwjoMUrRb7wJP/NfPfn4qCJQo2wc=
+
+Name: org/lamport/tla/toolbox/ui/wizard/NewSpecWizardPage$4.class
+SHA-256-Digest: PZJDP/d3EwTK2fD0xI3kgY9dHJ4QhgsS47XP1zMD1dI=
+
+Name: org/lamport/tla/toolbox/util/UIHelper$4.class
+SHA-256-Digest: iE1zrIcDLsbVstL6qgyWQf5bZd0Lt3fmED+O8R1CNoQ=
+
+Name: org/lamport/tla/toolbox/ui/handler/OpenModuleHandler$1.class
+SHA-256-Digest: cfNlGuYCYf3Rx9b5pXovVgt7rNTBC+ghjryEOEEd1Cg=
+
+Name: org/lamport/tla/toolbox/ui/handler/SaveDirtyEditorAbstractHandle
+ r.class
+SHA-256-Digest: CUPsbEw1dV8zf+PIMYADvopdhgiEiGvo8oHIPqmRQEY=
+
+Name: org/lamport/tla/toolbox/util/RCPNameToFileIStream.class
+SHA-256-Digest: XEz7Kd6sxsg84wePXtxGTuw2jufttIi+9gziC104mfc=
+
+Name: org/lamport/tla/toolbox/util/compare/ResourceNameComparator.clas
+ s
+SHA-256-Digest: Vqs/s46Q9/90W1hBWqPB5YUVop3W/XWFyE9UCBwTqKc=
+
+Name: org/lamport/tla/toolbox/ui/provider/ToolboxLabelProvider.class
+SHA-256-Digest: +HkrLb4+5LNJiW/mzLutn3G2HQyCsv1J/fkupbtZi3M=
+
+Name: org/lamport/tla/toolbox/util/TLAMarkerHelper$1.class
+SHA-256-Digest: r50GaJb2CMGvNHnDLhUxS4udz/R4o9M/9P6JUsx70YY=
+
+Name: icons/full/newspec_wiz.gif
+SHA-256-Digest: wJP+OcLNpM0VJ9Xv2Wz5Y0yHxl4g7z96XQ7g6cY6leI=
+
+Name: org/lamport/tla/toolbox/spec/nature/TLAParsingBuilderConstants.c
+ lass
+SHA-256-Digest: D4gaWHMQwj/3t1hsH/e8OMZGkDT7MY0oQOG8ab85gU8=
+
+Name: StandardModules/FiniteSets.tla
+SHA-256-Digest: hbWFmH+lq00foZdzyOPXZnxjMXVpKPrz7jd5sLTPAwo=
+
+Name: org/lamport/tla/toolbox/ui/preference/LibraryPathComposite$5.cla
+ ss
+SHA-256-Digest: ffWKSdMELjHgThC6W2ddKEmHq5ESo80pICeQT4K57jM=
+
+Name: org/lamport/tla/toolbox/spec/nature/ParserHelper$2.class
+SHA-256-Digest: u6Hu+QGGfR6gOTe9cwfdLHKiWpd4+Qz6Xo51btYnaJc=
+
+Name: org/lamport/tla/toolbox/ui/preference/LibraryPathComposite$7.cla
+ ss
+SHA-256-Digest: 1IXRS9DkEpy+cnqtTNtoNOS/pvkQZuJdzkWgSuOLPqE=
+
+Name: org/lamport/tla/toolbox/ui/preference/SWTFactory.class
+SHA-256-Digest: 5p3F2aUG79gVWGRMOflQZZZpqh25JcHgjaOs7XgPAeM=
+
+Name: org/lamport/tla/toolbox/ui/preference/EditorPreferencePage.class
+SHA-256-Digest: +Us8NHfeMYQti2XC6WwBtRQeZuPsfowq2tE/iNbn0mA=
+
+Name: org/lamport/tla/toolbox/util/HelpButton$HelpWindowDisposeListene
+ r.class
+SHA-256-Digest: HdBAvT50OiHhYA+1EcZqFLwB8KyoTLTR0v5dL1VJNNk=
+
+Name: org/lamport/tla/toolbox/ui/perspective/InitialPerspective.class
+SHA-256-Digest: WwDbFFQ/VpPVPYGbh+VsWUAkQAoLfkkb+3yGkJPELR8=
+
+Name: org/lamport/tla/toolbox/ui/handler/DeleteSpecHandler.class
+SHA-256-Digest: vYjEH8oPK+S7JdfpMxPX629mYIYItNA7lrmS3OMHD4c=
+
+Name: org/lamport/tla/toolbox/spec/parser/ParseResult.class
+SHA-256-Digest: 1+UNT1Z7a8a+03msL7PdA43+I8fcV33PWs57eorqFdE=
+
+Name: org/lamport/tla/toolbox/ui/navigator/ToolboxExplorer.class
+SHA-256-Digest: TCnIwVJR4eUuDQrmLUjM3TV0yrX87a2HtKzl0BfS0wE=
+
+Name: org/lamport/tla/toolbox/ui/wizard/NewSpecWizardPage$2.class
+SHA-256-Digest: RJFo42aReRzfhs10EJCUQQWvRHcJ+bT1OD/CvtDixEk=
+
+Name: org/lamport/tla/toolbox/ui/expression/ParseErrorTester.class
+SHA-256-Digest: NE+gFsuQn/G9bMK55AVA+hDUGUFanqoSScWQuxHLQKE=
+
+Name: org/lamport/tla/toolbox/ui/handler/PropertiesHandler.class
+SHA-256-Digest: UkkYw4q1sPjOIysW48Q/sCKfaPMC7qHZazc0bkBL+lE=
+
+Name: icons/full/etool16/tla_launch_check_wiz.svg
+SHA-256-Digest: I5N/N5oxStAcfRUXAgw3VMKWA2EqR3XpvZkcVGQk0q8=
+
+Name: org/lamport/tla/toolbox/ui/handler/ForgetSpecHandler.class
+SHA-256-Digest: LVTd5uOcWEBIr9QADoauKhepA9czMqKcOp+xHwiNpAw=
+
+Name: org/lamport/tla/toolbox/util/pref/IPreferenceConstants.class
+SHA-256-Digest: D/41FJdp7DYHwRx1aXr+RoDOJ7lBzXmH0R1vKWdue9s=
+
+Name: org/lamport/tla/toolbox/spec/manager/ISpecManager.class
+SHA-256-Digest: sjUa7XxhOtkyD86l1uzb3+vfqQi+KEHk7aaeA1m8CPc=
+
+Name: icons/full/etool16/new_project_wiz.gif
+SHA-256-Digest: WlB4krGAIdm8gEtU5slPmQFX/nxfKMp/QtAKOuLl0hI=
+
+Name: org/lamport/tla/toolbox/ui/contribution/ParseStatusContributionI
+ tem$2$1.class
+SHA-256-Digest: XrG7pLy+sxMOKW5gob80YW4e5aiUSEyRAHw6DP3KNoU=
+
+Name: icons/document-pdf.png
+SHA-256-Digest: 2RfMgTvsQbg1K6UhAFI/fdKwEuxPhxrt7IXiYZjlQ/0=
+
+Name: org/lamport/tla/toolbox/spec/nature/ParserHelper$1.class
+SHA-256-Digest: VV9Hmush/eXO56SF8x6rNVpIEajRb0n3k48xE7xMabQ=
+
+Name: org/lamport/tla/toolbox/util/FontPreferenceChangeListener.class
+SHA-256-Digest: /FmdVaoP9v262KrXn1g8nUGJNHN+GXBgZKl4188ieo0=
+
+Name: org/lamport/tla/toolbox/ui/view/PDFBrowserEditor.class
+SHA-256-Digest: e28anBXvrkcWD3g6HgmhqoEu3fuelZOHw2v4sXnvyvY=
+
+Name: org/lamport/tla/toolbox/ui/handler/ParseModuleHandler.class
+SHA-256-Digest: yFUmGg6oF5kCJ5NREBo6aDYR63vUtHV+gL9gZE0Z/2U=
+
+Name: org/lamport/tla/toolbox/util/SpecLifecycleManager.class
+SHA-256-Digest: vGlgHgZ8NiD4Q31PMz9nAvcbZHeRjPQy1nX47+t6Twk=
+
+Name: icons/full/etool16/tla_launch_check.gif
+SHA-256-Digest: WxRyM3Q0mVZOB/DZbCBZJ+zjmGs6iyAIzaMMkhTFK+M=
+
+Name: icons/full/refresh.gif
+SHA-256-Digest: UNrXeNFeLP0C3wBxRhio8pcw09z35sw60VyMsfAZTJY=
+
+Name: org/lamport/tla/toolbox/ui/handler/RefreshSpecHandler$1.class
+SHA-256-Digest: +70zOrLb4YrCgssMbUhzttxur+Q2EBCCFocCSqQM+iA=
+
+Name: org/lamport/tla/toolbox/OpenFileManager.class
+SHA-256-Digest: hLAeOxNBvD5+54w6K+ZoiWQPDmv7CG1+GOei/8EaVEM=
+
+Name: org/lamport/tla/toolbox/util/LegacyFileDocumentProvider.class
+SHA-256-Digest: jS5ZVpK66yQaEKseDHIq9tOBIDhDBRFIYZb977N4nSI=
+
+Name: org/lamport/tla/toolbox/spec/manager/WorkspaceSpecManager.class
+SHA-256-Digest: Ve/bZhyyRhMDyS+ZNj6XbqyoIqXSyUjWrGKgzdtoye8=
+
+Name: org/lamport/tla/toolbox/ui/handler/PCalTranslateModuleHandler.cl
+ ass
+SHA-256-Digest: m0js/Oql/y+Qn0vOj2/O0kiulV+YEpaImHWp/WBh7zY=
+
+Name: org/lamport/tla/toolbox/ToolboxDirectoryVisitor.class
+SHA-256-Digest: aNRJCnGGPhT+81s2owbwtPIf6gQKx8kwUZQmzfMWzCw=
+
+Name: org/lamport/tla/toolbox/util/TLAMarkerResolutionGenerator$DummyM
+ arkerResolution.class
+SHA-256-Digest: LaoC4kLkrxRHMNkWT29RKuNHOQ+GjTwNFuUkEiWXnO4=
+
+Name: org/lamport/tla/toolbox/ui/handler/SaveDirtyEditorAbstractHandle
+ r$SaveMessageDialog.class
+SHA-256-Digest: HRSpOTBxAF3QJe4+ogQQyPoEYA/8d1iIpI05XEn0HK0=
+
+Name: org/lamport/tla/toolbox/util/SpecLifecycleManager$1.class
+SHA-256-Digest: Lmfq8uPgTJUih9drwB7iOiBVVkY9Mwjn1KQouolb3k0=
+
+Name: org/lamport/tla/toolbox/ui/handler/OpenParseErrorViewHandler.cla
+ ss
+SHA-256-Digest: BT15gyLqDAwTKkSWm6CIO8Ets0u43Cl+XyQCAIuPUC4=
+
+Name: org/lamport/tla/toolbox/ui/handler/ForgetSpecHandler$1.class
+SHA-256-Digest: mFt2M0L0OmiFMHlcJFQJ2g+f0X3TtPQDtOCpORSAGUE=
+
+Name: org/lamport/tla/toolbox/tool/ToolboxHandle.class
+SHA-256-Digest: WYlT/IGd3liwemwEyZY3i3RdoiaorNo+yZVoE2xVwDM=
+
+Name: org/lamport/tla/toolbox/util/TLAMarkerHelper.class
+SHA-256-Digest: nly/b+LF62ODwAv2K9yT+UOftZjfTXO5UWxwowQMUEQ=
+
+Name: StandardModules/Reals.tla
+SHA-256-Digest: tuUtkfru4wdc+PgaUqeNkW3uln0CB5sHx+D9eFxYFQo=
+
+Name: org/lamport/tla/toolbox/spec/nature/PCalDetectingBuilder$PCalDet
+ ectingVisitor.class
+SHA-256-Digest: 6mgUFFZAaa7eyUVZffHodQiawc5PUhM7eeAlzHDiVGw=
+
+Name: org/lamport/tla/toolbox/ui/handler/NewSpecHandler$NewSpecHandler
+ Job$1.class
+SHA-256-Digest: dShR5lOOPhHRip/kO66MohZCy2d64xMfVVqd0iT++3k=
+
+Name: icons/full/obj16/warn_tsk.gif
+SHA-256-Digest: mfugB+cq7XIVb+MBtAfPa/m5Yk77AMgm1bc7atFgaRY=
+
+Name: icons/full/obj16/prj_obj.png
+SHA-256-Digest: mRbaTzUkwb5HNy/dj0W3MxORJg6rIxL+wvC54kHoyN8=
+
+Name: StandardModules/Integers.tla
+SHA-256-Digest: 5RS5CYWuK1scdNR1iUmavv8gFsC9//cfxxvj2cYsdP0=
+
+Name: icons/full/etool16/test.gif
+SHA-256-Digest: yjNCC4i8Vxmwdx04iOqYJHo1yAuYmmrnA82w1AxEmAM=
+
+Name: org/lamport/tla/toolbox/ui/preference/LibraryPathComposite$1.cla
+ ss
+SHA-256-Digest: cBft+x3P2Xp6R/pUANfyzugj1O8w6wefgCANU1cLCso=
+
+Name: icons/full/obj16/cprj_obj@2x.png
+SHA-256-Digest: BaJ5nll7rf49AETCMuVnY8Ypqx4LOYslvdxuKBeWJ6U=
+
+Name: org/lamport/tla/toolbox/util/HelpButton$HelpButtonListener$2.cla
+ ss
+SHA-256-Digest: 3pjbg6M4wm0CN2UUWbj16WsHfBWroSoVrydN00KK9sU=
+
+Name: icons/full/obj16/spec_obj.gif
+SHA-256-Digest: 6zny5Xyr/XQKuNDF+0sm/FynGzNOLPyNZIHDSEK0w2A=
+
+Name: org/lamport/tla/toolbox/util/HelpButton.class
+SHA-256-Digest: 2kDS8EfWe4J7XL+LG76/kxGjxzdSXJakAjt7SmnqfTU=
+
+Name: org/lamport/tla/toolbox/spec/parser/SpecificationParserLauncher.
+ class
+SHA-256-Digest: O/YcmLyB51+LFC1Lnj1cD6Fn8xmlufXlkQX0GUioyBk=
+
+Name: org/lamport/tla/toolbox/ui/property/GenericSelectionProvider$1.c
+ lass
+SHA-256-Digest: m8dVTY1bBXQmDPKgxG5Rk2b+MXOunvbaRWjF+Dmmdqo=
+
+Name: icons/full/obj16/file_obj.gif
+SHA-256-Digest: l6I/tPCpfdR4nKJ7zrI5tCBeb6dKTnh8MkzzeQjYTZs=
+
+Name: StandardModules/Naturals.tla
+SHA-256-Digest: d2npyLVb60DL9u1LwfQlBoVahUt0O7dSI7ekD0NEEHM=
+
+Name: org/lamport/tla/toolbox/spec/parser/IParseResultListener.class
+SHA-256-Digest: ijjFNnc9DBICdW5M0O3QyV+Q7wselMPo9LKwwishT7Q=
+
+Name: icons/full/obj16/error_tsk.gif
+SHA-256-Digest: zn2OfLw3wjU1Iawv3bUkv+/770DU81tpN13WoQUDLG8=
+
+Name: icons/full/obj16/externalize.gif
+SHA-256-Digest: dfIAt55/CbFGNtTu/0bda2yrZ5b3fATnAjdQu003Jss=
+
+Name: org/lamport/tla/toolbox/spec/parser/ParseResultBroadcaster$1.cla
+ ss
+SHA-256-Digest: lrfXkd0vmkiiin8Y/D4dPBm/1fvSDRqViE477Cy3BC4=
+
+Name: org/lamport/tla/toolbox/util/HelpButton$HelpButtonListener$1.cla
+ ss
+SHA-256-Digest: zxmAl50tN6vbkMEya8+ISYyuxRfN7FJeG5Q8OCRTU3Y=
+
+Name: org/lamport/tla/toolbox/ui/provider/SpecContentProvider$Group.cl
+ ass
+SHA-256-Digest: nX5zFZAflxq2+GAOEnvef1doYxsS5hM5Wic0C0/dgKE=
+
+Name: org/lamport/tla/toolbox/ui/preference/LibraryPathComposite$2.cla
+ ss
+SHA-256-Digest: HjLJbKavYQv8U2a5gB+2bSne+1k33myB9zvApXaJNF0=
+
+Name: org/lamport/tla/toolbox/util/pref/ResourceBasedPreferenceStore.c
+ lass
+SHA-256-Digest: 2o3DqBqretCyOdcCQ5RWpCpuGv+UJgsU66GxQpCyBGw=
+
+Name: org/lamport/tla/toolbox/ui/perspective/SpecLoadedPerspective.cla
+ ss
+SHA-256-Digest: 1kY/El21TOAUL6Ujy+FeiXmFVm8mRtk62N3DfiljJ7I=
+
+Name: org/lamport/tla/toolbox/tool/SpecLifecycleParticipant.class
+SHA-256-Digest: 9lW7Wrlj8hT+6/OtX47Dx2lrZArae6/wmzY5X8GPPvI=
+
+Name: org/lamport/tla/toolbox/ui/property/SpecPropertyPage.class
+SHA-256-Digest: Jrl74h2tnacwaeFlYuKB2UgDMVmEehtH+pIC29L+PCk=
+
+Name: org/lamport/tla/toolbox/ui/wizard/NewSpecWizardPage$1.class
+SHA-256-Digest: 54nBLCoKS/5b6yMOwgylSVUmbBEh6ZYYg24GbggwDFw=
+
+Name: icons/full/etool16/tla_launch_check_wiz_128.png
+SHA-256-Digest: EL0Qsi0ujk3z4b5VBe8MSyxxOm4e7SbR84BrosEZ/pM=
+
+Name: icons/full/obj16/tfile_obj.gif
+SHA-256-Digest: y+vwGpzA+ONWlEWy+oFfZMWnESZAv7pFhFXMCLHRiBM=
+
+Name: org/lamport/tla/toolbox/ui/preference/LibraryPathComposite$8.cla
+ ss
+SHA-256-Digest: 1hpTLQ1mVaBjkOgqbKyxrIcK9ZBbTkxvjFJE7ybYWaY=
+
+Name: icons/full/etool16/tla_launch_check_wiz_256.png
+SHA-256-Digest: /wTJdjBYn8KPZB9aS29H+mJccovPPuCx0Z/mJmXQe7U=
+
+Name: org/lamport/tla/toolbox/OpenFileManager$1$1.class
+SHA-256-Digest: XHopj6vMIurvNTYbH1RkQHyj3pUzjRtMXlYq8JOOV3s=
+
+Name: icons/full/etool16/tla_launch_check_wiz_48.png
+SHA-256-Digest: +PqhGB2HoDbYDG6OQe924lmlms64bfvn5MrmLiczh0s=
+
+Name: org/lamport/tla/toolbox/ui/handler/OpenParseErrorViewHandler$1.c
+ lass
+SHA-256-Digest: n99EIq9iCqCdtIhMETgfJCsD5fvsS/m9wqkgSlrP7Bo=
+
+Name: org/lamport/tla/toolbox/util/PopupMessage.class
+SHA-256-Digest: luzR42m5BSK37FzxKZvj8GfdYUaeweOZh+JYASLftv4=
+
+Name: org/lamport/tla/toolbox/spec/parser/DoubleHashedTable.class
+SHA-256-Digest: XVMBYAIMucVqhuT1j7ZH8k4D0x+j16Oxjo5yFP1JbCY=
+
+Name: org/lamport/tla/toolbox/util/IHelpConstants.class
+SHA-256-Digest: 5hdKRZq3oWR5DNMEKIweJXdtqb66gUVwnvEKtU25T7U=
+
+Name: org/lamport/tla/toolbox/ui/handler/ShowHistoryHandler.class
+SHA-256-Digest: MDXP6kYLCc2Q+gONKxA/hkbigWYw9aiTyT3YLw9wk5w=
+
+Name: StandardModules/TLC.tla
+SHA-256-Digest: fSwt+rvAUta0ptq+qkIfUIeDq+BNAOGbR0phI1OSktg=
+
+Name: org/lamport/tla/toolbox/util/HelpButton$HelpShellListener.class
+SHA-256-Digest: NbwC7JUXmrvMRqeJRv3XcpuBnNtUxn8EqBWKOGAtpC4=
+
+Name: org/lamport/tla/toolbox/ui/handler/OpenSpecHandlerDelegate.class
+SHA-256-Digest: qRWkr69Nm6A4keDG1o6CR9L4g2UCJMG72PB7IlNUpAs=
+
+Name: org/lamport/tla/toolbox/ui/handler/SwitchPerspectiveHandler.clas
+ s
+SHA-256-Digest: b3hznQapn5SuLp6XbxlgN9svBRWo18Wrgf7zqdDAYdY=
+
+Name: org/lamport/tla/toolbox/ui/handler/OpenSpecHandler.class
+SHA-256-Digest: rF07mOOFujiBSRZAg1hFwZfxoHOYHbuabdygj87oK04=
+
+Name: org/lamport/tla/toolbox/Activator$2.class
+SHA-256-Digest: xqCNk9ifet01B9YplcFjV+nVlu4EWPbZ7nwe0JTHUPA=
+
+Name: org/lamport/tla/toolbox/ui/provider/IGroup.class
+SHA-256-Digest: zK1wMOjtQq1WLG3fMMrqMOM/aqU/FM6bzoEvaeNjooQ=
+
+Name: org/lamport/tla/toolbox/spec/Spec$NullTLAtoPCalMapping.class
+SHA-256-Digest: 9FsiqhDc9+kKu7hoOpB5xS/kRU8RYYjNAxLLbsTm0Vg=
+
+Name: org/lamport/tla/toolbox/ui/handler/RefreshSpecHandler.class
+SHA-256-Digest: e1rkI++DZubOUq9uUY4uXS23TwzwdZ7BCIVOzsqHkZw=
+
+Name: org/lamport/tla/toolbox/ui/contribution/SizeControlContribution.
+ class
+SHA-256-Digest: xkYJHlWp2QkS5csGHoQcUmCYul7GDhWZipTsv/pFTX8=
+
+Name: org/lamport/tla/toolbox/ui/navigator/ToolboxExplorerResourceList
+ ener$1.class
+SHA-256-Digest: XmXY9cXrljbl5y9U+8BRNVeBkewzUiPgPom1n8wn4wA=
+
+Name: org/lamport/tla/toolbox/ui/handler/NewSpecHandler.class
+SHA-256-Digest: 8kNjWFK/OgoZqnsbMYR+ZtxaQAo+cFKw4lNnjkaYuyQ=
+
+Name: org/lamport/tla/toolbox/ui/handler/OpenSpecHandler$1$1.class
+SHA-256-Digest: Sa3+fm/A0Yn1YxPitzPqDe0bi2c5qYh4E8SxmZRDI4U=
+
+Name: icons/full/obj16/info_tsk.gif
+SHA-256-Digest: xxS6sxsN+Dsi8ILC3GvKvGWKt2IizcWGmOG1nVtaR+c=
+
+Name: org/lamport/tla/toolbox/ui/handler/AddModuleHandler.class
+SHA-256-Digest: GEXKZhlVAQ+Moeuuyqgi8/lOT0l+PXgOXsarCYQQuUI=
+
+Name: org/lamport/tla/toolbox/AbstractTLCActivator.class
+SHA-256-Digest: V3vEpn5Ajp3g5TBcQ2OXTwIIc2n96KLELy0Il2x1IRA=
+
+Name: org/lamport/tla/toolbox/util/ToolboxJob.class
+SHA-256-Digest: s6gl9SWuX0PwbvBrvyZogv1j3C4JIeZPqGqkMy8rx3U=
+
+Name: org/lamport/tla/toolbox/OpenFileManager$1.class
+SHA-256-Digest: b/Zt5TfpioCNkWEQkZeXsz4LxtBZoE+hcwH7avdGUqM=
+
+Name: org/lamport/tla/toolbox/util/HelpButton$HelpButtonListener.class
+SHA-256-Digest: MsaFKXXdzbEl+9DJ+b1fy8beTzc6weUxkyNEota98vc=
+
+Name: org/lamport/tla/toolbox/ui/handler/NewSpecHandler$NewSpecHandler
+ Job.class
+SHA-256-Digest: zIUImuk2h+meY8Dpa03xSKEdu0DurTJZh9Fx9hZ/RCg=
+
+Name: icons/full/ovr16/algo_ovr.gif
+SHA-256-Digest: h7b/y+KGlMMesXv7V28xUsswF519q3gaqsAYQwgUh08=
+
+Name: StandardModules/Bags.tla
+SHA-256-Digest: ABpiQ+u4FBXga+sD5L81XroQYtTlbY8xoKwXWAxT5ic=
+
+Name: org/lamport/tla/toolbox/util/compare/SpecComparator.class
+SHA-256-Digest: ieAtG3jNzvtRxrENqj0jb4gXsqO9uJXnkeoUNmwyN7A=
+
+Name: org/lamport/tla/toolbox/util/ResourceHelper$1.class
+SHA-256-Digest: rBaO8jYCR0jHkKHYd1faKrrYkHUcmzsEmzre0reMs7I=
+
+Name: org/lamport/tla/toolbox/util/HelpButton$HelpButtonListener$3.cla
+ ss
+SHA-256-Digest: yhjLN9JZ+zEVF7Yk+f7ziexX3VeA74hXy0EDvE5DQ6M=
+
+Name: org/lamport/tla/toolbox/spec/nature/TLAParsingBuilder.class
+SHA-256-Digest: CAlGwA5YPKZn0xhd237rhl7uAYn5MGhw1tgosD8l9ZM=
+
+Name: org/lamport/tla/toolbox/ui/handler/OpenModuleHandler.class
+SHA-256-Digest: Qm8qlu4LBQ/mNvBbpmN3SnR8YDT3NDeX8LO0AL1+Nmg=
+
+Name: org/lamport/tla/toolbox/tool/SpecRenameEvent.class
+SHA-256-Digest: IYMPQPZnud02KVVBrgKtIVq9nxpgwF0ykKtxL8AmbHk=
+
+Name: icons/full/obj16/complete_task.gif
+SHA-256-Digest: csgLuuZR8EyMTgAmE+RTr1Ou4J+imJj0szsla/EZ4+Q=
+
+Name: org/lamport/tla/toolbox/util/pref/PreferenceStoreHelper.class
+SHA-256-Digest: pxIdOqXJgp68+RP1Ut8AKqU2RXHrlcym6vU/GLWswFM=
+
+Name: org/lamport/tla/toolbox/spec/parser/ParseResultBroadcaster.class
+SHA-256-Digest: 6DOgrgwej4v+qUIBRxF9aa/W8XQ7pd0mo0MJawuh/p0=
+
+Name: org/lamport/tla/toolbox/ui/view/ToolboxWelcomeView.class
+SHA-256-Digest: 4tt6KzHR7ilioCxkHSheVkTaiKvS0PPX9aKYerYxqM0=
+
+Name: icons/full/obj16/ftr_mf_obj.gif
+SHA-256-Digest: CXYR8X75bXkkdqEyo9BNFlETIaGlP+QlbU0ShL1KiMA=
+
+Name: org/lamport/tla/toolbox/ui/contribution/SizeControlContribution$
+ 2.class
+SHA-256-Digest: t5LOWUbtCgxB3Z3WYa0kDScdSwmePPOUXcZoXzAxoMA=
+
+Name: org/lamport/tla/toolbox/util/TLAMarkerResolutionGenerator$DummyW
+ BMarkerResolution.class
+SHA-256-Digest: LR8dWMzVWWGoywc256MTUxxZd7PCRGtnNE9njZEL4Qw=
+
+Name: icons/full/obj16/cprj_obj.png
+SHA-256-Digest: Y5E33LoZTczGwsDNTzps4FMrcuJpAF4paT1kc1nNAb4=
+
+Name: icons/full/etool16/rundebug.gif
+SHA-256-Digest: q6bP0WxKPX4Tx1g1SeKIRc5lTJXiOM+sp6Csjip6UgE=
+
+Name: org/lamport/tla/toolbox/util/ChangedModulesGatheringDeltaVisitor
+ .class
+SHA-256-Digest: kn2VF8j4L4NH8l2PtvcvpFBHH/K5JSe63yPo2R95+G0=
+
+Name: org/lamport/tla/toolbox/spec/Module.class
+SHA-256-Digest: W50PxFWbPyf1bAV8dwMRzzGaZJsmOUvTDD0wSr3yyh8=
+
+Name: org/lamport/tla/toolbox/util/TLAMarkerInformationHolder.class
+SHA-256-Digest: g4I7AEzgoDyUFAmt49kGzNmT8Xgyv1PKbXXaMFetXQc=
+
+Name: org/lamport/tla/toolbox/util/UIHelper$StatusLineMessageEraser.cl
+ ass
+SHA-256-Digest: 5A4Hg6muGQ/QYoxcb7rAqchYcIJSW68dqy5JBD7+C4U=
+
+Name: org/lamport/tla/toolbox/util/ResourceHelper.class
+SHA-256-Digest: zIAzdZ6baK44kIvRz3mN/3oMpNaDrRDhIQJVh7F2fk4=
+
+Name: org/lamport/tla/toolbox/util/StringHelper.class
+SHA-256-Digest: FaWTqL466Ggo1LMLQMWNJXYLQj30fgw8vpf72Q3cCuk=
+
+Name: org/lamport/tla/toolbox/Activator$3.class
+SHA-256-Digest: CBcA7qS5S5h1Dc3DL7fNAcDA0uFBYq1iV+KK4lkrs6w=
+
+Name: org/lamport/tla/toolbox/ui/handler/CloseSpecHandler.class
+SHA-256-Digest: 30sWj/xGrfaErsIbDUI/eoeQYC/Lx1iaArDLP5DtFwM=
+
+Name: org/lamport/tla/toolbox/ui/handler/RenameSpecHandler$1$1.class
+SHA-256-Digest: hktGhCKpLClpFD8M/yX5lTsr0TPCjgj4sIoLYfft1vg=
+
+Name: org/lamport/tla/toolbox/ui/preference/ParserPreferencePage.class
+SHA-256-Digest: pFRw+7TL0ehC82WjaP3ujqEqMYc+o1Ox3L1KiWB09E4=
+
+Name: org/lamport/tla/toolbox/Activator.class
+SHA-256-Digest: RfUGUqpadEYXkgGfcTfCsC6O7zvcqoOd/idjhJwc6aM=
+
+Name: org/lamport/tla/toolbox/ui/provider/SpecContentProvider.class
+SHA-256-Digest: b7H33OY7OcNuJnU8rAcBXCHmMGQDKJhp+Ca86eSiPkk=
+
+Name: org/lamport/tla/toolbox/util/SpecLifecycleManager$ExtensionInvoc
+ ationStrategy.class
+SHA-256-Digest: 2Qka8e45J/KhrlfPf6yUAQ0ciCRN9BttXMGmUtDvvi8=
+
+Name: org/lamport/tla/toolbox/ui/contribution/SizeControlContribution$
+ 1.class
+SHA-256-Digest: JyS9jx/sIF77k9UGi49AH5VTgmMbTftTWRXsHZQH7Ws=
+

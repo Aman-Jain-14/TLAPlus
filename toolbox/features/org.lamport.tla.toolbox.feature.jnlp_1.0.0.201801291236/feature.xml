@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.lamport.tla.toolbox.feature.jnlp"
+      label="TLA+ Toolbox JNLP Feature"
+      version="1.0.0.201801291236"
+      provider-name="Leslie Lamport, Markus Alexander Kuppe"
+      plugin="org.lamport.tla.toolbox.jnlp">
+
+   <description>
+      This feature defines the set of plug-ins that are required to run the base of the TLA+ Toolbox.
+   </description>
+
+   <plugin
+         id="org.lamport.tla.toolbox.jnlp"
+         download-size="7219"
+         install-size="7646"
+         version="1.0.0.201801291236"/>
+
+   <plugin
+         id="org.eclipse.equinox.http.jetty"
+         download-size="27"
+         install-size="50"
+         version="3.4.0.v20170503-2025"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.http.registry"
+         download-size="45"
+         install-size="86"
+         version="1.1.400.v20150715-1528"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.http.servlet"
+         download-size="195"
+         install-size="443"
+         version="1.4.0.v20170524-1452"
+         unpack="false"/>
+
+</feature>

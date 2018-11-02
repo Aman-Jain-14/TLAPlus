@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.lamport.tla.toolbox.feature.base"
+      label="TLA+ Toolbox Base Feature"
+      version="1.0.0.201801291236"
+      provider-name="Simon Zambrovski, Leslie Lamport"
+      plugin="org.lamport.tla.toolbox">
+
+   <description>
+      This feature defines the set of plug-ins that are required to run the base of the TLA+ Toolbox.
+   </description>
+
+   <plugin
+         id="org.lamport.tlatools"
+         download-size="3397"
+         install-size="8194"
+         version="1.0.0.201801291236"/>
+         
+   <plugin
+         id="org.lamport.tla.toolbox"
+         download-size="392"
+         install-size="852"
+         version="1.0.0.201801291236"/>
+
+   <plugin
+         id="org.eclipse.core.resources"
+         download-size="870"
+         install-size="1869"
+         version="3.12.0.v20170417-1558"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.filesystem"
+         download-size="65"
+         install-size="122"
+         version="1.7.0.v20170406-1337"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.ide"
+         download-size="2504"
+         install-size="4963"
+         version="3.13.0.v20170516-1223"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.forms"
+         download-size="318"
+         install-size="642"
+         version="3.7.100.v20170517-1755"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views"
+         download-size="107"
+         install-size="195"
+         version="3.9.0.v20170226-1833"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jface.text"
+         download-size="1055"
+         install-size="2216"
+         version="3.12.0.v20170523-1043"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.text"
+         download-size="263"
+         install-size="528"
+         version="3.6.100.v20170203-0814"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views.properties.tabbed"
+         download-size="108"
+         install-size="220"
+         version="3.8.0.v20170516-1617"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.intro"
+         download-size="338"
+         install-size="674"
+         version="3.5.100.v20170418-0710"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.navigator"
+         download-size="434"
+         install-size="920"
+         version="3.7.0.v20170418-1342"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui"
+         download-size="458"
+         install-size="569"
+         version="3.109.0.v20170411-1742"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.intro.universal"
+         download-size="2033"
+         install-size="2663"
+         version="3.3.100.v20170515-1335"/>
+
+</feature>

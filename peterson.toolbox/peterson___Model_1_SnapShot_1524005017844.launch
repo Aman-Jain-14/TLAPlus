@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.lamport.tla.toolbox.tool.tlc.modelCheck">
+<stringAttribute key="TLCCmdLineParameters" value=""/>
+<stringAttribute key="configurationName" value="Model_1_SnapShot_1524005017844"/>
+<booleanAttribute key="deferLiveness" value="false"/>
+<intAttribute key="dfidDepth" value="100"/>
+<booleanAttribute key="dfidMode" value="false"/>
+<intAttribute key="distributedFPSetCount" value="0"/>
+<stringAttribute key="distributedNetworkInterface" value="172.17.0.1"/>
+<intAttribute key="distributedNodesCount" value="1"/>
+<stringAttribute key="distributedTLC" value="off"/>
+<stringAttribute key="distributedTLCVMArgs" value=""/>
+<intAttribute key="fpBits" value="1"/>
+<intAttribute key="fpIndex" value="1"/>
+<intAttribute key="maxHeapSize" value="25"/>
+<intAttribute key="maxSetSize" value="1000000"/>
+<booleanAttribute key="mcMode" value="true"/>
+<stringAttribute key="modelBehaviorInit" value=""/>
+<stringAttribute key="modelBehaviorNext" value=""/>
+<stringAttribute key="modelBehaviorSpec" value="Spec"/>
+<intAttribute key="modelBehaviorSpecType" value="1"/>
+<stringAttribute key="modelBehaviorVars" value="cs0, cs1, flag0, flag1, pc, turn"/>
+<stringAttribute key="modelComments" value=""/>
+<booleanAttribute key="modelCorrectnessCheckDeadlock" value="false"/>
+<listAttribute key="modelCorrectnessInvariants">
+<listEntry value="1(pc[0] \in {&quot;ncs00&quot;,&quot;ncs01&quot;,&quot;check0&quot;} /\ pc[1] \in {&quot;cas1&quot;})&#10;\/&#10;(pc[1] \in {&quot;ncs10&quot;,&quot;ncs11&quot;,&quot;check1&quot;} /\ pc[0] \in {&quot;cas0&quot;})&#10;\/&#10;(pc[0] \in {&quot;ncs00&quot;,&quot;ncs01&quot;,&quot;check0&quot;} /\ pc[1] \in {&quot;ncs10&quot;,&quot;ncs11&quot;,&quot;check1&quot;})"/>
+</listAttribute>
+<listAttribute key="modelCorrectnessProperties">
+<listEntry value="0Termination"/>
+</listAttribute>
+<stringAttribute key="modelExpressionEval" value=""/>
+<stringAttribute key="modelParameterActionConstraint" value=""/>
+<listAttribute key="modelParameterConstants"/>
+<stringAttribute key="modelParameterContraint" value=""/>
+<listAttribute key="modelParameterDefinitions"/>
+<stringAttribute key="modelParameterModelValues" value="{}"/>
+<stringAttribute key="modelParameterNewDefinitions" value=""/>
+<intAttribute key="numberOfWorkers" value="3"/>
+<booleanAttribute key="recover" value="false"/>
+<stringAttribute key="result.mail.address" value=""/>
+<intAttribute key="simuAril" value="-1"/>
+<intAttribute key="simuDepth" value="100"/>
+<intAttribute key="simuSeed" value="-1"/>
+<stringAttribute key="specName" value="peterson"/>
+<stringAttribute key="view" value=""/>
+<booleanAttribute key="visualizeStateGraph" value="false"/>
+</launchConfiguration>

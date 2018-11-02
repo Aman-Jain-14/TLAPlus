@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.lamport.tla.toolbox.feature.prover"
+      label="TLA+ Toolbox Prover Feature"
+      version="1.0.0.201801291236"
+      provider-name="Daniel Ricketts"
+      plugin="org.lamport.tla.toolbox.tool.prover">
+
+   <description>
+      This feature combines all parts needed by the prover system.
+   </description>
+
+   <plugin
+         id="org.lamport.tla.toolbox.tool.prover"
+         download-size="112"
+         install-size="249"
+         version="1.0.0.201801291236"
+         unpack="false"/>
+
+</feature>

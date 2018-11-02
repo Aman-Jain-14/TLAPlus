@@ -1,0 +1,33 @@
+(***************************************************************************
+--algorithm DieHard {
+    variables big = 0, small = 0 ;
+    { while ( true )
+        
+        { either big := 5
+            or
+          small := 3 
+            or
+          big := 0
+          
+            or
+          small := 0
+            or
+          
+          with ( poured = Min(big + small , 5) - big )
+            { big := big + poured ;
+              small := small - poured }
+          
+                    or
+          with ( poured = Min(big + small , 3) - small )
+            { big := big - poured ;
+              small := small + poured }
+        }
+    }
+}
+ ***************************************************************************)
+------------------------------ MODULE Die_hard ------------------------------
+
+=============================================================================
+\* Modification History
+\* Last modified Mon Apr 16 19:15:50 EDT 2018 by axj182
+\* Created Mon Apr 16 18:47:40 EDT 2018 by axj182

@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.apache.jclouds.feature"
+      label="Feature"
+      version="2.0.3.3">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="aws-ec2"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="aws-s3"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="ec2"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="azurecompute"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="azurecompute-arm"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="jclouds-blobstore"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="jclouds-bouncycastle"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="jclouds-compute"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="jclouds-core"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="jclouds-enterprise"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="jclouds-okhttp"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.okhttp"
+         download-size="0"
+         install-size="0"
+         version="2.2.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.okio"
+         download-size="0"
+         install-size="0"
+         version="1.2.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="oauth"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="jclouds-joda"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="jclouds-netty"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="jclouds-scriptbuilder"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="jclouds-slf4j"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="jclouds-sshj"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.gson"
+         download-size="0"
+         install-size="0"
+         version="2.5.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.guava"
+         download-size="0"
+         install-size="0"
+         version="16.0.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.inject"
+         download-size="0"
+         install-size="0"
+         version="3.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.inject.assistedinject"
+         download-size="0"
+         install-size="0"
+         version="3.0.0"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.jcraft.jsch.agentproxy.osgi"
+         download-size="0"
+         install-size="0"
+         version="0.0.8"
+         unpack="false"/>
+
+   <plugin
+         id="joda-time"
+         download-size="0"
+         install-size="0"
+         version="2.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.hierynomus.sshj"
+         download-size="0"
+         install-size="0"
+         version="0.21.1"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.javax-inject"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.2"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.jsch"
+         download-size="0"
+         install-size="0"
+         version="0.1.51.1"
+         unpack="false"/>
+
+<!--
+   <plugin
+         id="org.apache.servicemix.bundles.jsch-agentproxy-sshj"
+         download-size="0"
+         install-size="0"
+         version="0.0.7.1"
+         unpack="false"/>
+-->
+
+   <plugin
+         id="org.apache.servicemix.bundles.jzlib"
+         download-size="0"
+         install-size="0"
+         version="1.1.3.2"
+         unpack="false"/>
+
+   <plugin
+         id="bcpkix"
+         download-size="0"
+         install-size="0"
+         version="1.58.0"
+         unpack="false"/>
+
+   <plugin
+         id="bcprov"
+         download-size="0"
+         install-size="0"
+         version="1.58.0"
+         unpack="false"/>
+
+   <plugin
+         id="bcprov-ext"
+         download-size="0"
+         install-size="0"
+         version="1.58.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.aopalliance"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.6"
+         unpack="false"/>
+
+   <plugin
+         id="s3"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="slf4j.api"
+         download-size="0"
+         install-size="0"
+         version="1.7.25"
+         unpack="false"/>
+
+   <plugin
+         id="slf4j.nop"
+         download-size="0"
+         install-size="0"
+         version="1.7.25"
+         unpack="false"/>
+
+   <plugin
+         id="slf4j.simple"
+         download-size="0"
+         install-size="0"
+         version="1.7.25"
+         unpack="false"/>
+
+   <plugin
+         id="sts"
+         download-size="0"
+         install-size="0"
+         version="2.0.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.jboss.netty"
+         download-size="0"
+         install-size="0"
+         version="3.5.9.Final"
+         unpack="false"/>
+
+   <plugin
+         id="javax.ws.rs.jsr311-api"
+         download-size="0"
+         install-size="0"
+         version="1.1.1"
+         unpack="false"/>
+
+   <plugin
+         id="com.sun.jna"
+         download-size="0"
+         install-size="0"
+         version="4.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.sun.jna.platform"
+         download-size="0"
+         install-size="0"
+         version="4.1.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.java-xmlbuilder"
+         download-size="0"
+         install-size="0"
+         version="0.6.0.1"
+         unpack="false"/>
+   <plugin
+         id="net.i2p.crypto.eddsa"
+         download-size="0"
+         install-size="0"
+         version="0.1.0"
+         unpack="false"/>
+</feature>

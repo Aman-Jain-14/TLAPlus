@@ -1,0 +1,149 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.12 of 29 January 2018
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with 3 workers on 6 cores with 503MB heap and 1127MB offheap memory (Linux 4.4.0-103-generic amd64, Oracle Corporation 1.8.0_121 x86_64).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /home/aman/Desktop/tla+/testandset.toolbox/Model_1/MC.tla
+Parsing file /home/aman/Desktop/tla+/testandset.toolbox/Model_1/testandset.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/TLC.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/Integers.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/Naturals.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module testandset
+Semantic processing of module Sequences
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2018-04-20 02:50:27)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2212:0 @!@!@
+Implied-temporal checking--satisfiability problem has 1 branches.
+@!@!@ENDMSG 2212 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking temporal properties for the current state space with 121823 total distinct states at (2018-04-20 02:50:31)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2267:0 @!@!@
+Finished checking temporal properties in 01s at 2018-04-20 02:50:32
+@!@!@ENDMSG 2267 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(5017) at 2018-04-20 02:50:32: 365444 states generated (365,444 s/min), 121842 distinct states found (121,842 ds/min), 24 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(216283) at 2018-04-20 02:51:32: 15797690 states generated (15,432,246 s/min), 5265924 distinct states found (5,144,082 ds/min), 23 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking temporal properties for the current state space with 8342593 total distinct states at (2018-04-20 02:52:33)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2018-04-20 02:52:38
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 34, col 12 to line 34, col 13 of module testandset: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 34, col 16 to line 34, col 19 of module testandset: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 34, col 22 to line 34, col 24 of module testandset: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 34, col 27 to line 34, col 28 of module testandset: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 34, col 31 to line 34, col 34 of module testandset: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 47, col 19 to line 47, col 56 of module testandset: 5823729
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 48, col 32 to line 48, col 33 of module testandset: 5823729
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 48, col 36 to line 48, col 39 of module testandset: 5823729
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 48, col 42 to line 48, col 44 of module testandset: 5823729
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 48, col 47 to line 48, col 50 of module testandset: 5823729
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 51, col 22 to line 51, col 57 of module testandset: 13032506
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 52, col 22 to line 52, col 33 of module testandset: 13032506
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 54, col 33 to line 54, col 77 of module testandset: 4800663
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 55, col 33 to line 55, col 70 of module testandset: 8231843
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 56, col 35 to line 56, col 36 of module testandset: 13032506
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 56, col 39 to line 56, col 41 of module testandset: 13032506
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 59, col 29 to line 59, col 42 of module testandset: 3085745
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 60, col 29 to line 60, col 75 of module testandset: 3085745
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 61, col 42 to line 61, col 43 of module testandset: 3085745
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 61, col 46 to line 61, col 49 of module testandset: 3085745
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 61, col 52 to line 61, col 55 of module testandset: 3085745
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 64, col 31 to line 64, col 43 of module testandset: 3085733
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 65, col 31 to line 65, col 68 of module testandset: 3085733
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 66, col 44 to line 66, col 45 of module testandset: 3085733
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 66, col 48 to line 66, col 50 of module testandset: 3085733
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 66, col 53 to line 66, col 56 of module testandset: 3085733
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(342832) at 2018-04-20 02:52:38: 25027714 states generated (11,506,730 s/min), 8342593 distinct states found (3,835,586 ds/min), 22 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+25027714 states generated, 8342593 distinct states found, 22 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 1001:1 @!@!@
+Java ran out of memory.  Running Java with a larger memory allocation
+pool (heap) may fix this.  But it won't help if some state has an enormous
+number of successor states, or if TLC must compute the value of a huge set.
+@!@!@ENDMSG 1001 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 132374ms at (2018-04-20 02:52:39)
+@!@!@ENDMSG 2186 @!@!@

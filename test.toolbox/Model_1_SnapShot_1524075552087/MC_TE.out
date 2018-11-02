@@ -1,0 +1,242 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.12 of 29 January 2018
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with 3 workers on 6 cores with 503MB heap and 1127MB offheap memory (Linux 4.4.0-103-generic amd64, Oracle Corporation 1.8.0_121 x86_64).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /home/aman/Desktop/tla+/test.toolbox/Model_1/MC.tla
+Parsing file /home/aman/Desktop/tla+/test.toolbox/Model_1/test.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/TLC.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/Integers.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/Naturals.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module test
+Semantic processing of module Sequences
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2018-04-18 23:49:10)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 1000:1 @!@!@
+TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the User Output or TLC Console for clues to what happened.
+The exception was a java.lang.RuntimeException
+: Attempted to apply function:
+<<TRUE, TRUE>>
+to argument 0, which is not in the domain of the function.
+@!@!@ENDMSG 1000 @!@!@
+@!@!@STARTMSG 2121:1 @!@!@
+The behavior up to this point is:
+@!@!@ENDMSG 2121 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+1: <Initial predicate>
+/\ flag = <<FALSE, FALSE>>
+/\ sum = 0
+/\ temp = <<FALSE, FALSE>>
+/\ pc = <<"remainderSection00", "remainderSection00">>
+/\ turn = 0
+/\ total = 2
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+2: <remainderSection00 line 98, col 29 to line 101, col 69 of module test>
+/\ flag = <<FALSE, TRUE>>
+/\ sum = 0
+/\ temp = <<FALSE, FALSE>>
+/\ pc = <<"remainderSection00", "remainderSection01">>
+/\ turn = 0
+/\ total = 2
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+3: <remainderSection00 line 98, col 29 to line 101, col 69 of module test>
+/\ flag = <<TRUE, TRUE>>
+/\ sum = 0
+/\ temp = <<FALSE, FALSE>>
+/\ pc = <<"remainderSection01", "remainderSection01">>
+/\ turn = 0
+/\ total = 2
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+4: <remainderSection01 line 103, col 29 to line 106, col 69 of module test>
+/\ flag = <<TRUE, TRUE>>
+/\ sum = 0
+/\ temp = <<FALSE, FALSE>>
+/\ pc = <<"check", "remainderSection01">>
+/\ turn = 0
+/\ total = 2
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2103:1 @!@!@
+The error occurred when TLC was evaluating the nested
+expressions at the following positions:
+0. Line 108, column 16 to line 115, column 56 in test
+1. Line 108, column 19 to line 108, column 36 in test
+2. Line 109, column 19 to line 109, column 36 in test
+3. Line 109, column 27 to line 109, column 36 in test
+
+
+@!@!@ENDMSG 2103 @!@!@
+@!@!@STARTMSG 2201:0 @!@!@
+The coverage statistics at 2018-04-18 23:49:10
+@!@!@ENDMSG 2201 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 100, col 32 to line 100, col 79 of module test: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 101, col 45 to line 101, col 48 of module test: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 101, col 51 to line 101, col 55 of module test: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 101, col 58 to line 101, col 60 of module test: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 101, col 63 to line 101, col 66 of module test: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 104, col 32 to line 104, col 55 of module test: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 105, col 32 to line 105, col 66 of module test: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 106, col 45 to line 106, col 49 of module test: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 106, col 52 to line 106, col 55 of module test: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 106, col 58 to line 106, col 60 of module test: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 106, col 63 to line 106, col 66 of module test: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 109, col 19 to line 109, col 36 of module test: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 112, col 35 to line 112, col 72 of module test: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 113, col 35 to line 113, col 81 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 114, col 27 to line 114, col 73 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 115, col 32 to line 115, col 35 of module test: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 115, col 38 to line 115, col 42 of module test: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 115, col 45 to line 115, col 48 of module test: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 115, col 51 to line 115, col 53 of module test: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 119, col 22 to line 119, col 56 of module test: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 120, col 35 to line 120, col 38 of module test: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 120, col 41 to line 120, col 45 of module test: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 120, col 48 to line 120, col 51 of module test: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 120, col 54 to line 120, col 56 of module test: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 120, col 59 to line 120, col 62 of module test: 3
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 123, col 31 to line 123, col 44 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 124, col 31 to line 124, col 78 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 125, col 44 to line 125, col 47 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 125, col 50 to line 125, col 54 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 125, col 57 to line 125, col 60 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 125, col 63 to line 125, col 66 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 128, col 32 to line 128, col 68 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 129, col 32 to line 129, col 65 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 45 to line 130, col 48 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 51 to line 130, col 55 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 130, col 58 to line 130, col 60 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 84, col 12 to line 84, col 15 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 84, col 18 to line 84, col 22 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 84, col 25 to line 84, col 28 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 84, col 31 to line 84, col 33 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 84, col 36 to line 84, col 37 of module test: 0
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2221:0 @!@!@
+  line 99, col 32 to line 99, col 67 of module test: 7
+@!@!@ENDMSG 2221 @!@!@
+@!@!@STARTMSG 2202:0 @!@!@
+End of statistics.
+@!@!@ENDMSG 2202 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(6) at 2018-04-18 23:49:11: 21 states generated (2,727 s/min), 17 distinct states found (2,207 ds/min), 4 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+21 states generated, 17 distinct states found, 4 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 6.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 2 (minimum is 0, the maximum 2 and the 95th percentile is 2).
+@!@!@ENDMSG 2268 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 752ms at (2018-04-18 23:49:11)
+@!@!@ENDMSG 2186 @!@!@

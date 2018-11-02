@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.lamport.tla.toolbox.feature.editor"
+      label="TLA+ Toolbox Editor Feature"
+      version="1.0.0.201801291236"
+      provider-name="Simon Zambrovski, Leslie Lamport"
+      plugin="org.lamport.tla.toolbox.editor.basic">
+
+   <description>
+      This feature defines the set of plug-ins that are required to
+run the TLA+ Editor.
+   </description>
+
+   <plugin
+         id="org.eclipse.core.filebuffers"
+         download-size="117"
+         install-size="257"
+         version="3.6.100.v20170203-1130"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.runtime"
+         download-size="74"
+         install-size="156"
+         version="3.13.0.v20170207-1030"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui"
+         download-size="458"
+         install-size="569"
+         version="3.109.0.v20170411-1742"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.editors"
+         download-size="623"
+         install-size="1375"
+         version="3.11.0.v20170202-1823"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.ide"
+         download-size="2504"
+         install-size="4963"
+         version="3.13.0.v20170516-1223"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.resources"
+         download-size="870"
+         install-size="1869"
+         version="3.12.0.v20170417-1558"
+         unpack="false"/>
+
+   <plugin
+         id="org.lamport.tla.toolbox.editor.basic"
+         download-size="294"
+         install-size="624"
+         version="1.0.0.201801291236"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.filesystem"
+         download-size="65"
+         install-size="122"
+         version="1.7.0.v20170406-1337"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jface.text"
+         download-size="1055"
+         install-size="2216"
+         version="3.12.0.v20170523-1043"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.workbench.texteditor"
+         download-size="653"
+         install-size="1380"
+         version="3.10.100.v20170426-2021"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.compare.core"
+         download-size="66"
+         install-size="126"
+         version="3.6.100.v20170516-0820"
+         unpack="false"/>
+
+</feature>

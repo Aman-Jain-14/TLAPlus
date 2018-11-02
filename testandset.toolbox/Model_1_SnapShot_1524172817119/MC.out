@@ -1,0 +1,45 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.12 of 29 January 2018
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with 3 workers on 6 cores with 503MB heap and 1127MB offheap memory (Linux 4.4.0-103-generic amd64, Oracle Corporation 1.8.0_121 x86_64).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /home/aman/Desktop/tla+/testandset.toolbox/Model_1/MC.tla
+Parsing file /home/aman/Desktop/tla+/testandset.toolbox/Model_1/testandset.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/TLC.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/Integers.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/Naturals.tla
+Parsing file /home/aman/Desktop/tla+/toolbox/plugins/org.lamport.tlatools_1.0.0.201801291236/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module testandset
+Semantic processing of module Sequences
+Semantic processing of module TLC
+Semantic processing of module MC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2018-04-20 02:50:09)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2212:0 @!@!@
+Implied-temporal checking--satisfiability problem has 1 branches.
+@!@!@ENDMSG 2212 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2190:0 @!@!@
+Finished computing initial states: 1 distinct state generated.
+@!@!@ENDMSG 2190 @!@!@
+@!@!@STARTMSG 2192:0 @!@!@
+Checking temporal properties for the current state space with 149278 total distinct states at (2018-04-20 02:50:12)
+@!@!@ENDMSG 2192 @!@!@
+@!@!@STARTMSG 2267:0 @!@!@
+Finished checking temporal properties in 01s at 2018-04-20 02:50:13
+@!@!@ENDMSG 2267 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(6144) at 2018-04-20 02:50:13: 447764 states generated (447,764 s/min), 149281 distinct states found (149,281 ds/min), 22 states left on queue.
+@!@!@ENDMSG 2200 @!@!@

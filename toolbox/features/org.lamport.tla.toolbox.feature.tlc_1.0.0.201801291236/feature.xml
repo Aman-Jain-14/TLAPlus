@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.lamport.tla.toolbox.feature.tlc"
+      label="TLA+ Toolbox TLC Tool Feature"
+      version="1.0.0.201801291236"
+      provider-name="Yuan Yu, Leslie Lamport, Simon Zambrovski">
+
+   <description>
+      This feature contains all parts needed the TLC model checker.
+   </description>
+
+   <plugin
+         id="org.lamport.tla.toolbox.tool.tlc"
+         download-size="139"
+         install-size="283"
+         version="1.0.0.201801291236"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.debug.core"
+         download-size="383"
+         install-size="790"
+         version="3.11.0.v20170605-1534"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.console"
+         download-size="204"
+         install-size="369"
+         version="3.7.0.v20170315-0941"
+         unpack="false"/>
+
+   <plugin
+         id="org.lamport.tla.toolbox.tool.tlc.ui"
+         download-size="463"
+         install-size="950"
+         version="1.0.0.201801291236"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.navigator"
+         download-size="434"
+         install-size="920"
+         version="3.7.0.v20170418-1342"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.launching"
+         download-size="336"
+         install-size="736"
+         version="3.9.0.v20170419-1235"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.core"
+         download-size="6129"
+         install-size="14058"
+         version="3.13.0.v20170516-1929"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.debug"
+         download-size="912"
+         install-size="1023"
+         version="3.11.0.v20170510-1451"/>
+
+   <plugin
+         id="org.eclipse.core.variables"
+         download-size="35"
+         install-size="64"
+         version="3.4.0.v20170113-2056"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.launching.macosx"
+         os="macosx"
+         download-size="19"
+         install-size="29"
+         version="3.4.0.v20160923-0911"
+         unpack="false"/>
+
+   <plugin
+         id="javax.mail"
+         download-size="313"
+         install-size="588"
+         version="1.4.0.v201005080615"
+         unpack="false"/>
+
+   <plugin
+         id="javax.activation"
+         download-size="54"
+         install-size="105"
+         version="1.1.0.v201211130549"
+         unpack="false"/>
+
+</feature>

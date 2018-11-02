@@ -1,0 +1,342 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: ChMzejUFF2sUm6yc5kHnB5oo8aAvt
+ pCS/KfJphq3Mcg=
+SHA-256-Digest-Manifest: MUmB2vTE4bVVVLy7792D0nqfC0GbfYtp6Er7s9SCQbM=
+Created-By: 1.8.0_161 (Oracle Corporation)
+
+Name: plugin.xml
+SHA-256-Digest: HBpeld7pOlLZ47WbibhWMYRHN6uvv9yanH3fAJQgyTI=
+
+Name: html/gettingstarted/unmaximize.gif
+SHA-256-Digest: 3WAyvmS6pC2ePUi5uDG+1dj/egiht7SaP05Ok6ka8Dk=
+
+Name: html/gettingstarted/module-editor-preferences.html
+SHA-256-Digest: QR2n854D6ptfzdDQbJDr+uJs9EC0w8ca9SMsIbitSZg=
+
+Name: pdfs/c-manual.pdf
+SHA-256-Digest: t99z2yaMr3fCHFWc1WKV3BPBcFGwP3g3+kgK7Uaa75g=
+
+Name: html/model/model-preferences.html
+SHA-256-Digest: 7AHpHTf5J/Va3CvPuO73HA4CpD4vrRHgBNWY0u9xEQE=
+
+Name: html/model/warning.gif
+SHA-256-Digest: AYBkX3A+/Z2PRahMdPKvOrAzXCZF2AGe4+/W3vyvPlo=
+
+Name: html/cloudtlc/ModelEditorC.png
+SHA-256-Digest: nh0prU0oUrjCJxhzwVd5T1TcH/ytw4GZiH/u3mYvqyQ=
+
+Name: .placeholder
+SHA-256-Digest: cdsBY3pHtHfS53MzLxn+SCmDej4aQHReAgnG9ES8FGg=
+
+Name: html/gettingstarted/left-right-arrows.gif
+SHA-256-Digest: aCnzwb8RhygqVVsa3ObJzdp4xZsTdDK0a4FwEfzJJjk=
+
+Name: html/model/added.gif
+SHA-256-Digest: 1Sy8/gpNsbSefuu49LgiIfjvvd1/ENpR/ms11gl63Js=
+
+Name: html/template.html
+SHA-256-Digest: yV6AuhHWrlqNpkYXG8doUY49bzT3KO09MQIRHIkYmDs=
+
+Name: html/update/revert-update.html
+SHA-256-Digest: HyCfy8y4EEreIqcyHTdSpqHrIvtSB45rKUf5I5RBkzE=
+
+Name: html/pluscal/pluscal.html
+SHA-256-Digest: XBCwPjGjwsTZH9VisjtewNEFYBjeNAMf4QdxxCrjRPI=
+
+Name: org/lamport/tla/toolbox/doc/handler/HelpPDFHandler.class
+SHA-256-Digest: 7Cl5r+aQTBfZeciNWG2iCGNowO9qPv+jBC9MARmYIYU=
+
+Name: html/concepts/model.html
+SHA-256-Digest: Hnep4Yai1cLMM9fH9eB5cFZY9x61zHkSjDnrXPVfSSo=
+
+Name: html/gettingstarted/folders.gif
+SHA-256-Digest: OLeyV6BbtyVCBuliab8Nv+R6ZyK8DQfB8J4gEefvd9I=
+
+Name: html/frontpage.xml
+SHA-256-Digest: 3k9z0kKYpZfOElPoep5CUFCLeix3ZlBAi13gQwG4RKg=
+
+Name: html/model/changed.gif
+SHA-256-Digest: Oy9NpYxNLHSZy1JKpmpuUF/AR3RduBdnuq7gqfBUvV4=
+
+Name: html/update/run-update.html
+SHA-256-Digest: ft2Z5mTs9/lcMrfmQ+7QwiqFCcIt5eg584Kgg8okEIw=
+
+Name: html/tasks/create_spec.html
+SHA-256-Digest: DWnMcKF5bsxeh85Y1RyGnVldUa45My0h5S1vOmPlzwQ=
+
+Name: html/gettingstarted/folder-minimize.gif
+SHA-256-Digest: LX4QkoTzj0b+ogJrzwc3fSid0YQPnWOGVr93W50yOaA=
+
+Name: html/model/error-balloon.gif
+SHA-256-Digest: W0RBCTE+17MOEn7XBX/j9Zq92o/jlZzfDBdwMLuol04=
+
+Name: html/gettingstarted/gettingstarted.html
+SHA-256-Digest: lNP9lpfe86T3na+y7OoVDgRpFsL18qY5dBctnYHz3Uo=
+
+Name: toc.xml
+SHA-256-Digest: CmE1nAI3ynndegXXPB7+NHMOW8TF7o9P6uAvY7z82CY=
+
+Name: org/lamport/tla/toolbox/doc/handler/HelpPDFHandler$1.class
+SHA-256-Digest: X1PjP4SB4usH75oegLLNFNMRbhXTKGXsXHhgh386628=
+
+Name: html/frontpage.html
+SHA-256-Digest: vVqk+vPyT9VcqellYRZVgLCJJ53RwINiQq4R760cLnc=
+
+Name: html/reference/subtopic2.html
+SHA-256-Digest: 5+Ll/wB9BDIjS99CYx8+niRAM0FX6s7QRza4yR4ad3s=
+
+Name: html/prover/runningTlaps.html
+SHA-256-Digest: 7klPbSpeL/bl8YXBhsG8DiYTmUZE2tEwI/9aWjsg0+M=
+
+Name: pdfs/book-02-08-08.pdf
+SHA-256-Digest: UqWyP9UnDiT5tp1D5J/nZ/BZrzBj4FTCbrG6adimtls=
+
+Name: org/lamport/tla/toolbox/doc/handler/HelpURLHandler.class
+SHA-256-Digest: TFQpwRKUCOOkpbJa5TKJSwIRe1+aa+UdDagn8SRzIok=
+
+Name: html/prover/decompose.html
+SHA-256-Digest: VOkqhFzPlAsIT8CqSislgiwxntGZBlLsW3KKGJfixDk=
+
+Name: pom.xml
+SHA-256-Digest: 0DwvCV0PDwgDYVNBMyCw8Lei7P8cGiYO9TJG1SokB9w=
+
+Name: org/lamport/tla/toolbox/doc/handler/HelpContentsHandler$1.class
+SHA-256-Digest: 7NKvtBooOrREUsYpzChfugV9ZesSua7BvrvK3YAxdKc=
+
+Name: html/spec/what-is.html
+SHA-256-Digest: iyMK24af/Z8RMTLW1slITxpFNNTokPxgJvseUVFuz8Q=
+
+Name: html/spec/opening-closing.html
+SHA-256-Digest: 4m4nfufDw3UmJn420/ETe3S9mfarspBbsaT25UrnV/E=
+
+Name: html/model/run-icon.gif
+SHA-256-Digest: REpBXqPyxY7E2Ueq4IVssvpAtjehoXYlrSXbqroNXX8=
+
+Name: html/tasks/close_spec.html
+SHA-256-Digest: nMFwRb4h1LeGb5hKIofQAUkjylFkpw7OqY8aLv0LC0c=
+
+Name: html/toc.html
+SHA-256-Digest: K+T+6wEo8XpYyb+T9vFbysK0sVtH/sL8ISureHR/W8Y=
+
+Name: html/spec/editing-modules.html
+SHA-256-Digest: ip9IiIL6QLsNVhWYlkaA1EwiQglG0ijFrjVGapwog2I=
+
+Name: html/spec/spec-explorer-icon.gif
+SHA-256-Digest: UCaxZU76R7bUqFEaPhX3UMPRLjgxYzmZJFEd00xTkAM=
+
+Name: html/cloudtlc/EMailResult.png
+SHA-256-Digest: LW5veGlmnwn6RQbq1WLaTNq3yzn3PpEXilwlYDwL54E=
+
+Name: html/model/removed.gif
+SHA-256-Digest: 7HqAvoy7moi9ZjkFLtkUEB90nZ4FlaVgplYMNwh89ZI=
+
+Name: html/concepts/subspec2.html
+SHA-256-Digest: AfgvSlG39/lT6EH+m2MGE5QV+X1Xsu+rZywXij76Ue4=
+
+Name: html/gettingstarted/views.html
+SHA-256-Digest: iQHly7Ao3T9iB+ojHeAiddaBdcZrCXUPjmbiChaFokg=
+
+Name: html/model/running-tlc.gif
+SHA-256-Digest: FFvqap1VUhPmS+3nn7DE/VB9pM8jRY6RdS2+lWcDPFw=
+
+Name: html/cloudtlc/MCoutInBrowser.png
+SHA-256-Digest: FWW4UVKYCyQ9z21KG9MZoUwjnHR1FMYcmsRB1bU+s/w=
+
+Name: html/cloudtlc/ModelEditorA.png
+SHA-256-Digest: Rk+PTn1bEfMlX1SC1OdnFiZdfxE69Ko1KjnbSTSBcU8=
+
+Name: html/gettingstarted/useful-help.gif
+SHA-256-Digest: m3WrPc1lamEPTdqxUTovAR3etluuj3ezv3OG8mdsis0=
+
+Name: html/cloudtlc/LoadIntoResultPageB.png
+SHA-256-Digest: 2ydhx0cRynI57acVSL72av38kGNLId1ck0ipnd5fV5o=
+
+Name: html/contents.html
+SHA-256-Digest: /WpPuP1KL9ldefUlIXk/MbTdr6E0a4dqYifKjMKCX0o=
+
+Name: tocsamples.xml
+SHA-256-Digest: vEuGmzKnti14aU4A98DkXDdD5uVNfplChM8D2g+MC1o=
+
+Name: html/spec/help-print.html
+SHA-256-Digest: GU0gVm6Fo0gDdhVXDTRtB/z5SXnVrb/UJvIM9kUtJ3s=
+
+Name: html/gettingstarted/default-help.gif
+SHA-256-Digest: I6smQ0hWIFdsGnsuELL8KTCrRiVE5ZA0MiqTuy7L4m8=
+
+Name: html/gettingstarted/eclipse-help-icon.gif
+SHA-256-Digest: QGTB9CDz7eUYe3180i6ib3XuaEI1QPmGQO+MgE0hyZk=
+
+Name: pdfs/summary-standalone.pdf
+SHA-256-Digest: jw0ea3lsk4fRSSxzk/Hbol6uz7M14nrXj+8OrssL7a0=
+
+Name: html/model/overview-page.html
+SHA-256-Digest: 1nky8mOCMaUugqXJ7zPEroQSjvkfeHVoTEjpJqVdzv4=
+
+Name: tocgettingstarted.xml
+SHA-256-Digest: ISChR6sAxS+iUJ/nevev28MEL0gN6sYLfGO8G4NPmuw=
+
+Name: html/model/results-page.html
+SHA-256-Digest: 1ST8qRkEiSILGtahNLsyBXiuWvMuSoAt7Zk8/1hwWvI=
+
+Name: html/prover/old-decompose.html
+SHA-256-Digest: TtP7a9UWSHmAsNSwlE5FA0pB6Fa9jNZ8HjygIz4NrRk=
+
+Name: html/style.css
+SHA-256-Digest: Tiz8kUBwsyPjGPU60xYahJiySvk+hRxg+t6zR11Hj1I=
+
+Name: html/cloudtlc/FinalResultLoaded.png
+SHA-256-Digest: SWLCuaLs9A4/hdmF5a/xFygBwWhttCLUfkZ9TeTIIXg=
+
+Name: html/spec/parser-preferences.html
+SHA-256-Digest: 98oSk3YLkHPDg5wYo8/ZN3898/N82W3xDRw7E+EXLXQ=
+
+Name: html/cloudtlc/ProgressBar.png
+SHA-256-Digest: Ig2KRT/yfIpZbIcnYlsPGmIZkhBVYN/uW+SMfcmu2rs=
+
+Name: html/cloudtlc/LoadResultIntoToolbox.png
+SHA-256-Digest: Hty4siGfNwKiH+26Ee9zRQ8eOTYfTh0Pr4UMHMwCjYk=
+
+Name: org/lamport/tla/toolbox/doc/handler/HelpContentsHandler.class
+SHA-256-Digest: X5HjatDXGKFTInIA9sh809KYPsGjkxt7/AjVxuCiqfo=
+
+Name: html/concepts/module.html
+SHA-256-Digest: JeXZ6a6DmpGknzNP2ebHD0seS1elsX/fdLkM3bzRXJE=
+
+Name: html/model/stop-icon.gif
+SHA-256-Digest: 7s8vMWzso8vt47P4zW367NwxgGg1Nvhpf2p6MNG4a7g=
+
+Name: html/prover/color-predicates.gif
+SHA-256-Digest: zEDigzf7SenDWoo2J3yVfo4Z+T2cTLq4+Qkf/Nmwkgo=
+
+Name: html/cloudtlc/ModelEditorB.png
+SHA-256-Digest: re6fLoi9QHybjlm9RVgrWEPmSUEULCkvAHfh+weOp70=
+
+Name: html/gettingstarted/help.html
+SHA-256-Digest: x8iH8jynGBEGsm+G/I/hsQidW7/KBahBUM1G5/tBuKc=
+
+Name: html/model/advanced-page.html
+SHA-256-Digest: cDBPB1S1SOayv54pkH4BrGQLgpIEsl7m2Jpr2/g3eHg=
+
+Name: html/spec/spec.html
+SHA-256-Digest: k5PW/5DjFBqIL7M0i8655zKVWkrYnnFoswxbgwpNQZg=
+
+Name: html/concepts/subconcepttext.html
+SHA-256-Digest: RBPou8U9TCurxcnN0MpjV7dnRC5sndz+9WoLu9y++iw=
+
+Name: html/gettingstarted/minimized-folder.gif
+SHA-256-Digest: paf6jOZNhzXQNdCsJ20dWWHtL+GtSxM59bvTBIbfpsw=
+
+Name: html/gettingstarted/preferences.html
+SHA-256-Digest: jBc6z4f/yFzF1fGzexynVO77APeneWGtykqXz7dmuBE=
+
+Name: html/gettingstarted/resources.html
+SHA-256-Digest: lBhefvx0sOBCmG+yi71AWW3T2fO1Bg5L/3Dh6QGTQtc=
+
+Name: html/gettingstarted/maintopic.html
+SHA-256-Digest: SjoOMRUkOzkYL+hJcE/vhgLxReV6/E6pHsK0Gm34uZM=
+
+Name: org/lamport/tla/toolbox/doc/HelpActivator.class
+SHA-256-Digest: Mcm0nsapW9hmPHVLl5aQ6TTry8E+0soI5LSi+JTraco=
+
+Name: html/model/drag.gif
+SHA-256-Digest: 5hcO3d29yhksGOzEfu/Ixg04BOkOWtv8gs3viDGJ4PY=
+
+Name: html/model/executing-tlc.html
+SHA-256-Digest: cB425bD91O9sB+VaiMD3mRj+QuEdf4R1nWcZb61dK/M=
+
+Name: html/gettingstarted/question-mark.gif
+SHA-256-Digest: RWAOxjkQ/oleMCaSakMLRS052NYPjw8fY8hRYt64S5M=
+
+Name: html/update/update-preferences.html
+SHA-256-Digest: sVOCA8ExHoJ03S+q978DQYO+8c55iMBZpuHpxPK0kH8=
+
+Name: toctasks.xml
+SHA-256-Digest: 8vs3dMo5SKCf0C/x7r8cohP60LL+XTawvsThtYHRCsk=
+
+Name: html/prover/reading.html
+SHA-256-Digest: mGo9Ks5TNxsWEX5Cc1g5cEPu2/ENttF/OaAvqR1VOmI=
+
+Name: html/cloudtlc/ModelEditorD.png
+SHA-256-Digest: dSlAf2WGyZZnT1fDoaUiCqTDFyS3K6RaaHFzKIPo90o=
+
+Name: html/model/validate-icon.gif
+SHA-256-Digest: GLeCEcYAQHJcc5MtT0GCO99rbkiY6pDPkxwS1ui2PvY=
+
+Name: html/model/about-models.html
+SHA-256-Digest: g88gyQ2wtzmxNN1OkQ1DnnpGzKb1C//oGltNte3z4Fk=
+
+Name: html/gettingstarted/tla-preferences.html
+SHA-256-Digest: GofJ7xe7/r8NOD79vNxvZ6StOghwRcEnT7WwNTOddAw=
+
+Name: html/tasks/open_spec.html
+SHA-256-Digest: +t/OzP3HTGtdL+/ZZnYeRwrBEBL6BprwWe/mVGvoXt8=
+
+Name: html/model/creating-model.html
+SHA-256-Digest: ArhUH6nywBW3ZbC1B7kloD+3seTN/DwOYAlnHcQhl3Y=
+
+Name: html/spec/parsing.html
+SHA-256-Digest: h4b8w04iuEfGfg0mBE09ga8CgW/Lc111Q+IMI2gSs3Y=
+
+Name: html/reference/maintopic.html
+SHA-256-Digest: mnkkJ+5rNYxyJpwKNlPtsLREUkrl16YaoQJ6Yo0o1rA=
+
+Name: html/concepts/subspec1.html
+SHA-256-Digest: J7QnY8Azx5cO4IBgAOKWJotsuTYxqOZMBILEbQuvL3I=
+
+Name: html/model/distributed-mode.html
+SHA-256-Digest: Wm/Wo08lfR5HvYm/jWHFK3YZzrylpznsFtzGu6qc3Yk=
+
+Name: html/tasks/delete_spec.html
+SHA-256-Digest: HB5IxIYJ5awpvcBG33njEgVcLuOcFV+ovuloWKBqcEs=
+
+Name: html/model/model-values.html
+SHA-256-Digest: cmWuH0a4s25kmwfsed9AMl6rUj6eMffkGnX7XvqTXn8=
+
+Name: html/model/model.html
+SHA-256-Digest: qrbK/R5mzsfDClhDrkrlzgltrDhocVYz5pw3b0pFw8Y=
+
+Name: html/tasks/test.html
+SHA-256-Digest: 9x36slerhqF+xNgbT57qhihkmYOIkrtIzp+DSlYzBLs=
+
+Name: html/model/clear-icon.gif
+SHA-256-Digest: rStZkSOswdMgItVFk3/SCFq7VTvcnuenShEYVEKAllE=
+
+Name: html/help-us/help-us.html
+SHA-256-Digest: gYuFh/X+SDbfgN3EXW5LHC52XklzgkiLRSaI/tZqqwc=
+
+Name: html/prover/prover.html
+SHA-256-Digest: wWYvJhpnDO8Rh1cgfSiyBVCaCY2A1AsfrogCL7wP36s=
+
+Name: html/trouble/trouble.html
+SHA-256-Digest: t/9i1tHjFPt5Ab18M5lSrRO7IcJXgcW5sG+d80N/xXM=
+
+Name: html/reference/subtopic.html
+SHA-256-Digest: nikaxdYGgFly1o+6j0NKQqsomTIB4hvPao/Go+Au8Cs=
+
+Name: subconcept.xml
+SHA-256-Digest: NpBKeYO1NdK8bwbGJopHR9rKY0gzjGfV0hflOYLV/Mk=
+
+Name: tocconcepts.xml
+SHA-256-Digest: QDtZpJIQBKyQqh/N0yoUjQOFbkbVRiSZ4NwMNvHQ8Xg=
+
+Name: html/splash.bmp
+SHA-256-Digest: JlSUBL152qF2KOszVSfA3zArk6K1W6t/d3b20NoamZA=
+
+Name: tocreference.xml
+SHA-256-Digest: wyWy17j9AtNbv93uI90FI/vwW1lcjulmfpKQ4BQdQoE=
+
+Name: html/cloudtlc/index.html
+SHA-256-Digest: B/FiVR5B9Z67Ubid4MQxtrhkPHv+f5j0uegtNGXMRes=
+
+Name: html/cloudtlc/ProgressBarFinal.png
+SHA-256-Digest: LybIP3fMNWGiBpySJ+5BaV4Q+PmlUfauFGukdewA+CE=
+
+Name: html/gettingstarted/view-tab.gif
+SHA-256-Digest: EgI1mVQ/n8Vpd8VvFwKFunVn+YDLTfV+vnN1B1t8zM4=
+
+Name: html/spec/pretty-printing.html
+SHA-256-Digest: CalMratngE7Iz8ptU77XBHqPA1hx+jI8neWhdXo+2wc=
+
+Name: html/concepts/specification.html
+SHA-256-Digest: I+0ngHM7VKO4OiVu4YMScisd1zGZyykCSJ2L+Y6CaEc=
+
